@@ -16,6 +16,11 @@ Every part of the game the PSX code reaches is ported: boot, intro and outro mov
 championship races with AI, damage and pit stops, replays, results and league tables, memory card saves and CD
 music. What is still to be compared against the real game is listed in [docs/NOTES.md](docs/NOTES.md).
 
+## Download
+
+A Windows build of the latest commit is on the [releases page](https://github.com/wardboumans/dd2-psx-decomp/releases)
+(`dd2-windows-x64.zip`: `dd2.exe` plus `make_assets.py`; no installer or extra DLLs needed).
+
 ## Building
 
 Requirements: CMake 3.24 or newer and a C11 compiler. SDL3 is used when installed; otherwise CMake downloads and

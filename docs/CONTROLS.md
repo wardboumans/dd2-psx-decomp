@@ -10,16 +10,16 @@ pressing a button on either counts. Nothing is read in test runs (`--screenshot`
 | PSX button | Keyboard | Gamepad (SDL position) |
 |---|---|---|
 | D-pad | Arrow keys | D-pad |
-| Cross ✕ | `X` or `Space` | South (Xbox A) |
-| Circle ○ | `C` | East (Xbox B) |
+| Cross ✕ | `A` or `Enter` | South (Xbox A) |
+| Circle ○ | `X` | East (Xbox B) |
 | Square □ | `Z` | West (Xbox X) |
-| Triangle △ | `S` | North (Xbox Y) |
-| L1 | `Q` | Left shoulder |
-| R1 | `E` | Right shoulder |
-| L2 | `1` | Left trigger (past half way) |
-| R2 | `3` | Right trigger (past half way) |
-| Start | `Enter` | Start / Menu |
-| Select | `Backspace` | Back / View |
+| Triangle △ | `Backspace` | North (Xbox Y) |
+| L1 | `Shift` | Left shoulder |
+| R1 | `Ctrl` | Right shoulder |
+| L2 | `C` | Left trigger (past half way) |
+| R2 | `V` | Right trigger (past half way) |
+| Start | `Esc` | Start / Menu |
+| Select | `Tab` | Back / View |
 | L3 / R3 | (none) | Stick clicks (the game doesn't use them) |
 
 By default the pad is a **digital** pad, so the analog sticks do nothing and you steer with the D-pad.
@@ -38,8 +38,9 @@ The game's **Controls** menu offers four layouts. Type 1 is the default. The tab
 | Fast steer (hold with ← →) | L1 or R1 | L1 or R1 | L2 or R2 | L2 or R2 |
 | View toggle (bumper ↔ chase) | L2 or R2 | L2 or R2 | L1 or R1 | L1 or R1 |
 
-So with Type 1 on a keyboard: `X`/`Space` accelerates, `Z` brakes, the arrows steer, `Q`/`E` give fast
-steer and `1`/`3` switch the camera. Brake wins when both pedals are held.
+So with Type 1 on a keyboard: `A` accelerates, `Z` brakes, the arrows steer, `Shift`/`Ctrl` give fast
+steer, `C`/`V` switch the camera and `Esc` pauses. Brake wins when both pedals are held. In the menus,
+`Enter` (or `A`) chooses, `Backspace` goes back, and `Z`/`X` change a value.
 
 These work the same in every layout:
 
@@ -71,9 +72,9 @@ With `--negcon` the port reports a NeGcon (twist pad) instead of a digital pad:
 | NeGcon control | Gamepad | Keyboard |
 |---|---|---|
 | Twist (steering) | Left stick X | (none) |
-| I (analog) | Right trigger | `X` / `Space` (fully pressed) |
+| I (analog) | Right trigger | `A` / `Enter` (fully pressed) |
 | II (analog) | Left trigger | `Z` (fully pressed) |
-| L (analog) | Left shoulder | `Q` (fully pressed) |
+| L (analog) | Left shoulder | `Shift` (fully pressed) |
 | A, B, R, Start, D-pad | ○, △, R1, Start and D-pad as mapped above | as mapped above |
 
 The game counts I, II and L as pressed once they go past half way. In the Type 1 NeGcon layout, I

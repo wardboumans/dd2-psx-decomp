@@ -75,6 +75,9 @@ been checked against the real game yet. Differences in the code are marked `PORT
 - Memory cards are 128 KB raw card images (the format emulators use) in the user's data folder
   (`SDL_GetPrefPath`): `memcard1.mcd` is made, formatted, when missing; slot 2 is only there when
   `memcard2.mcd` exists. Test runs use a card in memory only.
+- Card operations finish at once (the PSX takes real time per access). So the main menu's "Searching For
+  Config" notice (`Show_Searching_For_Config`, FRONTEND 0x801CAFC0) only flashes for its 2 drawn frames: on the
+  PSX the last of them stays on screen while `Load_First_Config` reads the cards. Kept as is.
 - Save files keep the PSX layout byte for byte, so real card images load. Replay saves store the end of the
   script as a PSX address (0x8009581C + offset); the port converts it and keeps a damaged one inside the script.
 - `--negcon` makes pad 1 a NeGcon (twist from the left stick, I/II from the triggers, L from the left shoulder);

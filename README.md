@@ -1,6 +1,6 @@
 # Destruction Derby 2 — portable C port
 
-A native port of the PlayStation version of Destruction Derby 2 (USA, `SCUS-94350`), decompiled into readable,
+A native port of the PlayStation version (because the Windows port sucks) of Destruction Derby 2 (USA, `SCUS-94350`), decompiled into readable,
 portable C11 on SDL3. The goal is a game that plays exactly like the PSX original: the same race speed, an
 engine sound for every car, and sound effects at the right pitch.
 
@@ -52,11 +52,30 @@ Run from the folder that holds `assets/` (or give the assets folder as the first
 build-msvc/Debug/dd2.exe
 ```
 
-The keyboard and the first gamepad both work; see [docs/CONTROLS.md](docs/CONTROLS.md). Memory cards are saved
-as `memcard1.mcd` (and `memcard2.mcd` when present) in SDL's per-user data folder, in the raw card format
-emulators use.
+Memory cards are saved as `memcard1.mcd` (and `memcard2.mcd` when present) in SDL's per-user data folder, in the
+raw card format emulators use.
 
-Options:
+### Controls
+
+The keyboard and the first gamepad both work. On a gamepad the buttons sit where the PSX ones do (✕ = south,
+Xbox A). The keyboard, with the default in-game control layout (Type 1):
+
+| Key | PSX button | In a race | In the menus |
+|---|---|---|---|
+| Arrows | D-pad | Steer | Move |
+| `A` or `Enter` | ✕ | Accelerate | Choose |
+| `Z` | □ | Brake | Change a value back |
+| `X` | ○ | | Change a value forward |
+| `Backspace` | △ | Leave a replay | Back |
+| `Esc` | Start | Pause | |
+| `Tab` | Select | Hold with `Esc` to abandon the race | |
+| `Shift` / `Ctrl` | L1 / R1 | Fast steer (hold while steering) | |
+| `C` / `V` | L2 / R2 | Switch camera | |
+
+The other control layouts, the NeGcon mode and the pit and replay controls are in
+[docs/CONTROLS.md](docs/CONTROLS.md).
+
+### Options
 
 | Option | What it does |
 |---|---|

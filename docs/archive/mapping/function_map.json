@@ -1,0 +1,6801 @@
+{
+ "800116ec": {
+  "name": "main",
+  "pc": null,
+  "file": "src/game/play_game.c",
+  "status": "mapped",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX entry from __main: init, intro, front end; PC Game_WinMain"
+ },
+ "8001174c": {
+  "name": "Play_Game",
+  "pc": "0x423b50",
+  "file": "src/game/play_game.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 106.82,
+  "notes": ""
+ },
+ "80011e68": {
+  "name": "Init_Debris",
+  "pc": "0x424090",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 19.58,
+  "notes": ""
+ },
+ "800125b0": {
+  "name": "Setup_Debris",
+  "pc": "0x42453c",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 17.03,
+  "notes": ""
+ },
+ "8001277c": {
+  "name": "Update_Debris",
+  "pc": "0x424640",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 8.2,
+  "notes": ""
+ },
+ "80012d78": {
+  "name": "Init_Flying_Objects",
+  "pc": "0x424a60",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.31,
+  "notes": ""
+ },
+ "80012fb4": {
+  "name": "Setup_Flying_Objects",
+  "pc": "0x424b88",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 13.61,
+  "notes": ""
+ },
+ "80013c1c": {
+  "name": "Update_Flying_Objects",
+  "pc": "0x425280",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 14.69,
+  "notes": ""
+ },
+ "80013e98": {
+  "name": "Zero_Flying_Object",
+  "pc": "0x4253bc",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -0.15,
+  "notes": ""
+ },
+ "80013f08": {
+  "name": "Request_Flying_Object",
+  "pc": "0x425400",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 6.6,
+  "notes": ""
+ },
+ "80013f58": {
+  "name": "Update_Flying_Object",
+  "pc": "0x425444",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.28,
+  "notes": ""
+ },
+ "80014ab0": {
+  "name": "Flying_Objects_Pos_Ang",
+  "pc": "0x425b18",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": 0.33,
+  "notes": ""
+ },
+ "80014c04": {
+  "name": "Flying_Object_Settle_Angles",
+  "pc": "0x425bc8",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.93,
+  "notes": ""
+ },
+ "80014d3c": {
+  "name": "Flying_Object_Off_Track",
+  "pc": "0x425cb8",
+  "file": "src/game/debris.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": 0.14,
+  "notes": ""
+ },
+ "80014f68": {
+  "name": "InitialiseDenting",
+  "pc": "0x425ea0",
+  "file": "src/game/denting.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 4.46,
+  "notes": ""
+ },
+ "80015228": {
+  "name": "Dent_Car_Zone",
+  "pc": "0x425fa4",
+  "file": "src/game/denting.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 15.01,
+  "notes": ""
+ },
+ "80016074": {
+  "name": "Generate_Surface_Normals",
+  "pc": "0x4268b8",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "graph+sdk",
+  "confidence": "low",
+  "score": 1.67,
+  "notes": ""
+ },
+ "8001648c": {
+  "name": "Init_Track_Strips",
+  "pc": "0x426be4",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 11.39,
+  "notes": ""
+ },
+ "800168e0": {
+  "name": "Track_Follow",
+  "pc": "0x426ff4",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 31.0,
+  "notes": ""
+ },
+ "80017a70": {
+  "name": "Map_Height",
+  "pc": "0x427f70",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 39.32,
+  "notes": ""
+ },
+ "80018274": {
+  "name": "Track_Quad_Centre",
+  "pc": "0x428678",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 4.35,
+  "notes": ""
+ },
+ "800184b0": {
+  "name": "Move_Backward_Strip",
+  "pc": "0x4288f0",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": -4.05,
+  "notes": "steps back through the previous links (+0x18); the PSX has no Move_Forward_Strip"
+ },
+ "80018558": {
+  "name": "Search_For_Strip",
+  "pc": "0x428980",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0.9,
+  "notes": ""
+ },
+ "800185f8": {
+  "name": "Reset_Car_Camera",
+  "pc": "0x428a00",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 6.17,
+  "notes": ""
+ },
+ "80018690": {
+  "name": "Update_Chase_Camera",
+  "pc": "0x428a8c",
+  "file": "src/game/track.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 28.99,
+  "notes": ""
+ },
+ "80019810": {
+  "name": "Car_Camera",
+  "pc": "0x4297bc",
+  "file": "src/game/camera.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.85,
+  "notes": ""
+ },
+ "80019a04": {
+  "name": "Camera_Pad_Control",
+  "pc": "0x429868",
+  "file": "src/game/camera.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 12.2,
+  "notes": ""
+ },
+ "80019b08": {
+  "name": "Init_Pit_Camera",
+  "pc": "0x429a68",
+  "file": "src/game/camera.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -3.06,
+  "notes": ""
+ },
+ "80019b64": {
+  "name": "Exit_Pit_Camera",
+  "pc": "0x429ac4",
+  "file": "src/game/camera.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 6.82,
+  "notes": ""
+ },
+ "80019bf0": {
+  "name": "Pit_Camera_Control",
+  "pc": "0x429b48",
+  "file": "src/game/camera.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 21.85,
+  "notes": ""
+ },
+ "8001a230": {
+  "name": "Init_The_Floaty_Camera",
+  "pc": "0x429ff0",
+  "file": "src/game/camera.c",
+  "status": "written",
+  "evidence": "const",
+  "confidence": "high",
+  "score": 6.36,
+  "notes": ""
+ },
+ "8001a2bc": {
+  "name": "Do_The_Floaty_Camera_Thing",
+  "pc": "0x42a040",
+  "file": "src/game/camera.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 22.99,
+  "notes": ""
+ },
+ "8001aad0": {
+  "name": "Init_Damage_Indicator",
+  "pc": "0x42a4c8",
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -0.43,
+  "notes": ""
+ },
+ "8001ac6c": {
+  "name": "Update_Damage_Indicator",
+  "pc": "0x42a608",
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 1.89,
+  "notes": ""
+ },
+ "8001b620": {
+  "name": "Bonnet_Smoke",
+  "pc": "0x42aae0",
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 8.42,
+  "notes": ""
+ },
+ "8001bf10": {
+  "name": "Street_Lighting",
+  "pc": "0x42b1cc",
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "const",
+  "confidence": "high",
+  "score": 4.86,
+  "notes": ""
+ },
+ "8001c5b0": {
+  "name": "Car_Segment_Lighting",
+  "pc": "0x42b720",
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 12.96,
+  "notes": ""
+ },
+ "8001d234": {
+  "name": "Draw_Car",
+  "pc": "0x42c15c",
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "leftover",
+  "confidence": "low",
+  "score": 13.47,
+  "notes": ""
+ },
+ "8001d3c4": {
+  "name": "Draw_Player_Car_Near",
+  "pc": "0x42c2d4",
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "leftover",
+  "confidence": "low",
+  "score": 13.37,
+  "notes": ""
+ },
+ "8001d514": {
+  "name": "Init_Car_Graphics",
+  "pc": "0x42c408",
+  "file": "src/game/car_init.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 18.01,
+  "notes": ""
+ },
+ "8001d944": {
+  "name": "Init_Wild_Bill",
+  "pc": "0x42c640",
+  "file": "src/game/car_init.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 4.67,
+  "notes": "calls Create_Object, called by Init_Scene"
+ },
+ "8001d998": {
+  "name": "Init_Rollercoaster",
+  "pc": "0x42c670",
+  "file": "src/game/car_init.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.24,
+  "notes": ""
+ },
+ "8001db90": {
+  "name": "Init_CLUT_Animation",
+  "pc": "0x42c77c",
+  "file": "src/game/anim.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 9.33,
+  "notes": ""
+ },
+ "8001dd38": {
+  "name": "Init_Texture_Animation",
+  "pc": "0x42c8a4",
+  "file": "src/game/anim.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 8.28,
+  "notes": ""
+ },
+ "8001e220": {
+  "name": "Draw_Other_Objects",
+  "pc": "0x42d008",
+  "file": "src/game/other_objects.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 7.32,
+  "notes": "calls Draw_Dynamic_Objects, calls Calc_Angle, called by Draw_Scene_Blocks"
+ },
+ "8001f8c8": {
+  "name": "Draw_Dynamic_Objects",
+  "pc": "0x42d598",
+  "file": "src/game/other_objects.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 9.11,
+  "notes": "calls Calc_Object_MatrixYXZ, calls Set_Object_View"
+ },
+ "8001f94c": {
+  "name": "Init_Flag",
+  "pc": "0x42d600",
+  "file": "src/game/flag.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.68,
+  "notes": ""
+ },
+ "8001fcd8": {
+  "name": "DrawFlagObject",
+  "pc": "0x42d758",
+  "file": "src/game/flag.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 7.89,
+  "notes": ""
+ },
+ "800204b0": {
+  "name": "UpdateFlag",
+  "pc": "0x42dac8",
+  "file": "src/game/flag.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "decays the flag wave over 0x4D vertices; UpdateFlag or ZoomFlag, check when writing"
+ },
+ "80020524": {
+  "name": "Init_LensFlare",
+  "pc": "0x42dc38",
+  "file": "src/game/lens_flare.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 11.25,
+  "notes": ""
+ },
+ "800207a0": {
+  "name": "DrawLensFlare",
+  "pc": "0x42ddd8",
+  "file": "src/game/lens_flare.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 9.71,
+  "notes": ""
+ },
+ "80020c6c": {
+  "name": "Init_Overlays",
+  "pc": "0x42e154",
+  "file": "src/game/overlays.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.07,
+  "notes": ""
+ },
+ "80021a78": {
+  "name": "Update_Race_Timers",
+  "pc": "0x42fb7c",
+  "file": "src/game/overlays.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 15.8,
+  "notes": ""
+ },
+ "80024430": {
+  "name": "Update_Race_CountDown",
+  "pc": "0x42fda0",
+  "file": "src/game/overlays.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 15.11,
+  "notes": ""
+ },
+ "800248a0": {
+  "name": "Display_Position_Pointers",
+  "pc": "0x4300ac",
+  "file": "src/game/overlays.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "low",
+  "score": 2.96,
+  "notes": ""
+ },
+ "80024c60": {
+  "name": "Init_Scene",
+  "pc": "0x43036c",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 18.09,
+  "notes": ""
+ },
+ "80024e90": {
+  "name": "VVDraw_Object",
+  "pc": "0x4304bc",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 10.44,
+  "notes": "calls Draw_Object_Level, called by Draw_Dynamic_Objects, called by Update_Flying_Objects"
+ },
+ "80024fbc": {
+  "name": "Draw_Scene_Object",
+  "pc": "0x430594",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": -0.11,
+  "notes": "calls Draw_Subdiv_Object, calls Build_Object_Packets, calls Draw_Object_Level, calls Remove_Object"
+ },
+ "80025314": {
+  "name": "Draw_Scene_Blocks",
+  "pc": "0x4307c8",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 6.88,
+  "notes": "calls Set_Object_View, called by Play_Game"
+ },
+ "80025454": {
+  "name": "Setup_Object_Block",
+  "pc": "0x4308a8",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.35,
+  "notes": ""
+ },
+ "80025908": {
+  "name": "Finish_Object_Block_Decrunch",
+  "pc": "0x4309e8",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 0.63,
+  "notes": ""
+ },
+ "80025cc8": {
+  "name": "Object_Decompression",
+  "pc": "0x430aec",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.12,
+  "notes": ""
+ },
+ "80026098": {
+  "name": "Init_Scene_Objects",
+  "pc": "0x430ddc",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 6.98,
+  "notes": ""
+ },
+ "80026164": {
+  "name": "Remove_Scene_Objects",
+  "pc": "0x430ed8",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": 0.04,
+  "notes": ""
+ },
+ "80026274": {
+  "name": "Init_Sky",
+  "pc": "0x430f38",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 5.0,
+  "notes": "calls Create_Object, called by Init_Game"
+ },
+ "80026340": {
+  "name": "Draw_Sky_Object",
+  "pc": "0x43102c",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 0.55,
+  "notes": ""
+ },
+ "800265d8": {
+  "name": "Draw_Sky",
+  "pc": "0x431330",
+  "file": "src/game/scene.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 12.94,
+  "notes": ""
+ },
+ "80026750": {
+  "name": "AI_Com_Server",
+  "pc": "0x4314a4",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 21.75,
+  "notes": ""
+ },
+ "80028420": {
+  "name": "Determine_AI",
+  "pc": "0x432d7c",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.74,
+  "notes": ""
+ },
+ "80028730": {
+  "name": "Recommended_Acceleration",
+  "pc": "0x433088",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": 0.2,
+  "notes": ""
+ },
+ "80028760": {
+  "name": "Angle_Quadrant",
+  "pc": "0x4330c8",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 4.2,
+  "notes": ""
+ },
+ "800287a4": {
+  "name": "Get_Car_Angle",
+  "pc": "0x433108",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 12.06,
+  "notes": ""
+ },
+ "800287d0": {
+  "name": "Get_Direction_Cosines",
+  "pc": "0x433134",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 5.04,
+  "notes": ""
+ },
+ "8002886c": {
+  "name": "Interpolate_Direction_Vectors_Left",
+  "pc": "0x4331a4",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 6.0,
+  "notes": ""
+ },
+ "800288fc": {
+  "name": "Interpolate_Direction_Vectors_Right",
+  "pc": "0x43321c",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.95,
+  "notes": ""
+ },
+ "8002898c": {
+  "name": "InitialiseAI",
+  "pc": "0x4332b8",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 4.29,
+  "notes": ""
+ },
+ "80028f00": {
+  "name": "Obstacle_Ahead",
+  "pc": "0x43361c",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.92,
+  "notes": ""
+ },
+ "80029794": {
+  "name": "Strip_Distance",
+  "pc": "0x433b80",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -0.02,
+  "notes": ""
+ },
+ "800297bc": {
+  "name": "AI_Update_Strip_Info",
+  "pc": "0x433ba0",
+  "file": "src/game/ai.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.5,
+  "notes": ""
+ },
+ "80029a74": {
+  "name": "CheckPointScoring",
+  "pc": "0x433d34",
+  "file": "src/game/collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.65,
+  "notes": ""
+ },
+ "80029e8c": {
+  "name": "Barrier_Collision",
+  "pc": "0x433f70",
+  "file": "src/game/collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 38.42,
+  "notes": ""
+ },
+ "8002b0a4": {
+  "name": "Barrier_Corner_Collision",
+  "pc": "0x434c7c",
+  "file": "src/game/collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 18.93,
+  "notes": ""
+ },
+ "8002b874": {
+  "name": "Init_Wheel_Objects",
+  "pc": "0x435300",
+  "file": "src/game/collision.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 4.77,
+  "notes": ""
+ },
+ "8002b92c": {
+  "name": "Init_Car_Wheel_Overlays",
+  "pc": "0x435384",
+  "file": "src/game/collision.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 15.34,
+  "notes": ""
+ },
+ "8002bd6c": {
+  "name": "TransformWheels_",
+  "pc": "0x435598",
+  "file": "src/game/wheels.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": -0.6,
+  "notes": "calls Calc_Object_MatrixYXZ, calls Set_Object_View, calls ApplyWheelOverlay, calls Update_Object"
+ },
+ "8002c01c": {
+  "name": "TransformEnemyWheels",
+  "pc": "0x435870",
+  "file": "src/game/wheels.c",
+  "status": "written",
+  "evidence": "leftover",
+  "confidence": "low",
+  "score": 3.15,
+  "notes": ""
+ },
+ "8002c150": {
+  "name": "ApplyWheelOverlay",
+  "pc": "0x435990",
+  "file": "src/game/wheels.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 10.46,
+  "notes": ""
+ },
+ "8002ce90": {
+  "name": "InitialiseParticleSystem",
+  "pc": "0x43617c",
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 16.38,
+  "notes": ""
+ },
+ "8002d854": {
+  "name": "Fire",
+  "pc": "0x4366fc",
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 2.06,
+  "notes": "called by Car_Drive_Motion, called by Bonnet_Smoke"
+ },
+ "8002d9d0": {
+  "name": "Sparks",
+  "pc": "0x4367ec",
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 11.69,
+  "notes": ""
+ },
+ "8002de84": {
+  "name": "Steam",
+  "pc": "0x436ab0",
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.71,
+  "notes": ""
+ },
+ "8002e32c": {
+  "name": "Pop_Particle_Slot",
+  "pc": "0x436d34",
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 12.3,
+  "notes": ""
+ },
+ "8002e3ec": {
+  "name": "Update_Particles",
+  "pc": "0x436e2c",
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.77,
+  "notes": ""
+ },
+ "8002e61c": {
+  "name": "Draw_Particle",
+  "pc": "0x436f00",
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.88,
+  "notes": ""
+ },
+ "8002e850": {
+  "name": "Knock_Car_Roll",
+  "pc": null,
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 3.06,
+  "notes": "was mislabelled rsin_exe: a side hit rolls the car onto two wheels"
+ },
+ "8002ea6c": {
+  "name": "Knock_Car_Pitch",
+  "pc": null,
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 3.07,
+  "notes": "was mislabelled rcos_exe: an end hit pitches the car onto nose or tail"
+ },
+ "8002ec80": {
+  "name": "Car_Corner_Collision_Response",
+  "pc": "0x43732c",
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 32.24,
+  "notes": ""
+ },
+ "800308cc": {
+  "name": "Calc_Head_On_Clsn_Dynamics",
+  "pc": "0x43853c",
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 22.89,
+  "notes": ""
+ },
+ "800325e8": {
+  "name": "Check_2D_Car_Collision",
+  "pc": "0x4398bc",
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 5.89,
+  "notes": ""
+ },
+ "800328e4": {
+  "name": "Check_Ground_Car_Collision",
+  "pc": "0x439b34",
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 18.88,
+  "notes": ""
+ },
+ "80033244": {
+  "name": "Check_Space_Car_Collision",
+  "pc": "0x43a230",
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": -0.5,
+  "notes": "calls Get_Car_Angle, called by Do_Car_Collisions"
+ },
+ "800337f8": {
+  "name": "Do_Car_Collisions",
+  "pc": "0x43a530",
+  "file": "src/game/car_collision.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 11.02,
+  "notes": ""
+ },
+ "80033b34": {
+  "name": "Init_Car_Cluts",
+  "pc": "0x43a7b4",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 13.25,
+  "notes": ""
+ },
+ "80034608": {
+  "name": "Init_Car_Doors",
+  "pc": "0x43b064",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -2.91,
+  "notes": ""
+ },
+ "80034ab4": {
+  "name": "Apply_Car_Part_Cluts",
+  "pc": "0x43b39c",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.19,
+  "notes": ""
+ },
+ "80034c84": {
+  "name": "Change_Bonnet_Clut",
+  "pc": "0x43b4b0",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.89,
+  "notes": ""
+ },
+ "80034e64": {
+  "name": "Change_Boot_Clut",
+  "pc": "0x43b5e8",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.76,
+  "notes": ""
+ },
+ "80034fb4": {
+  "name": "Highlight_Area",
+  "pc": "0x43b6f0",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.2,
+  "notes": ""
+ },
+ "8003533c": {
+  "name": "Set_Car_Door_Texture",
+  "pc": "0x43b8ec",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 20.34,
+  "notes": ""
+ },
+ "80035568": {
+  "name": "TextureDentHiCar",
+  "pc": "0x43ba70",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 16.89,
+  "notes": ""
+ },
+ "80035fd8": {
+  "name": "TextureDentMidCar",
+  "pc": "0x43c05c",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 16.9,
+  "notes": ""
+ },
+ "80036a44": {
+  "name": "Set_Tri_Cluts",
+  "pc": "0x43c618",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.4,
+  "notes": ""
+ },
+ "80036afc": {
+  "name": "Set_Quad_Cluts_GT4",
+  "pc": "0x43c68c",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.49,
+  "notes": ""
+ },
+ "80036bc4": {
+  "name": "Retexture_Tris",
+  "pc": "0x43c700",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 7.86,
+  "notes": ""
+ },
+ "80036e50": {
+  "name": "Retexture_Quads",
+  "pc": "0x43c868",
+  "file": "src/game/car_cluts.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 7.56,
+  "notes": ""
+ },
+ "8003721c": {
+  "name": "Get_Corner_Positions",
+  "pc": "0x43ca40",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+sdk",
+  "confidence": "high",
+  "score": 20.07,
+  "notes": ""
+ },
+ "80037c34": {
+  "name": "Make_Car_Fly",
+  "pc": "0x43d320",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 13.13,
+  "notes": ""
+ },
+ "80037f18": {
+  "name": "Car_Landed",
+  "pc": "0x43d548",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 15.72,
+  "notes": ""
+ },
+ "8003821c": {
+  "name": "Car_Fly_Motion_3D",
+  "pc": "0x43d7bc",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 10.44,
+  "notes": ""
+ },
+ "80038660": {
+  "name": "Car_Grounded_Motion_3D",
+  "pc": "0x43da14",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 16.96,
+  "notes": ""
+ },
+ "80038b44": {
+  "name": "Car_Side_Roll_Motion",
+  "pc": "0x43de30",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 24.49,
+  "notes": ""
+ },
+ "80039618": {
+  "name": "Car_2pt_Motion_3D",
+  "pc": "0x43e634",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 23.08,
+  "notes": ""
+ },
+ "8003b090": {
+  "name": "Car_1pt_Motion_3D",
+  "pc": "0x43fc54",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 26.77,
+  "notes": ""
+ },
+ "8003bc9c": {
+  "name": "Car_Drive_Motion_3D_",
+  "pc": "0x4405bc",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 16.21,
+  "notes": ""
+ },
+ "8003bfe8": {
+  "name": "Recover_Stuck_Cars",
+  "pc": "0x440ab0",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 4.83,
+  "notes": ""
+ },
+ "8003c1ec": {
+  "name": "Get_Wheel_Positions",
+  "pc": "0x440bf4",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+sdk",
+  "confidence": "high",
+  "score": 13.32,
+  "notes": ""
+ },
+ "8003c51c": {
+  "name": "Calc_Car_Angles_From_Wheels",
+  "pc": "0x441090",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 9.15,
+  "notes": ""
+ },
+ "8003c71c": {
+  "name": "Calc_Car_Tilt",
+  "pc": "0x441224",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 7.21,
+  "notes": ""
+ },
+ "8003c920": {
+  "name": "Calc_Car_Angles_Square",
+  "pc": "0x4413a0",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 4.19,
+  "notes": "calls Calc_Angle, called by Car_Grounded_Motion_3D"
+ },
+ "8003cac8": {
+  "name": "Control_Player_Car_From_Pad",
+  "pc": "0x4414c4",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 4.0,
+  "notes": ""
+ },
+ "8003cae8": {
+  "name": "Car_Drive_Motion",
+  "pc": "0x4414dc",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 10.06,
+  "notes": ""
+ },
+ "8003ddd0": {
+  "name": "Car_Drive_2pt_Motion",
+  "pc": "0x44229c",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.59,
+  "notes": ""
+ },
+ "8003e724": {
+  "name": "Car_Drive_1pt_Motion",
+  "pc": "0x44295c",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 6.76,
+  "notes": ""
+ },
+ "8003eb74": {
+  "name": "Integrate_Car_Position",
+  "pc": "0x442c38",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.78,
+  "notes": ""
+ },
+ "8003ed30": {
+  "name": "Car_Movement",
+  "pc": "0x442e0c",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 45.38,
+  "notes": ""
+ },
+ "8003f1d8": {
+  "name": "Place_Cars_On_Grid",
+  "pc": "0x4431e8",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 25.62,
+  "notes": ""
+ },
+ "8003fe10": {
+  "name": "Init_End_Race",
+  "pc": "0x443970",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.71,
+  "notes": ""
+ },
+ "8003fe3c": {
+  "name": "Calc_Track_Positions",
+  "pc": "0x443990",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.56,
+  "notes": ""
+ },
+ "800402f0": {
+  "name": "Init_Race_Records",
+  "pc": "0x443c40",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.32,
+  "notes": ""
+ },
+ "800403d4": {
+  "name": "Get_Race_Positions",
+  "pc": "0x443cbc",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.35,
+  "notes": ""
+ },
+ "80040710": {
+  "name": "Init_Track_Strip_Numbers",
+  "pc": "0x443ed4",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.96,
+  "notes": ""
+ },
+ "8004097c": {
+  "name": "Init_Car_Shadows",
+  "pc": "0x4440c0",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 13.31,
+  "notes": ""
+ },
+ "80040ab0": {
+  "name": "Draw_Car_Shadow",
+  "pc": "0x444178",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "leftover",
+  "confidence": "low",
+  "score": 6.07,
+  "notes": ""
+ },
+ "800412a8": {
+  "name": "Calc_Suspension_All_Wheels",
+  "pc": "0x444a10",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -0.29,
+  "notes": ""
+ },
+ "8004148c": {
+  "name": "Calc_Suspension_Left_Wheels",
+  "pc": "0x444b90",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -0.14,
+  "notes": ""
+ },
+ "800416e8": {
+  "name": "Calc_Suspension_Right_Wheels",
+  "pc": "0x444d4c",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.98,
+  "notes": ""
+ },
+ "80041944": {
+  "name": "Calc_Null_Suspension",
+  "pc": "0x444f0c",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.7,
+  "notes": ""
+ },
+ "800419e0": {
+  "name": "Calc_Extended_Suspension",
+  "pc": "0x444f6c",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.81,
+  "notes": ""
+ },
+ "80041a8c": {
+  "name": "Boot_Lost_Geometry",
+  "pc": "0x444fcc",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.82,
+  "notes": ""
+ },
+ "80041c44": {
+  "name": "Hide_Car_Vertices",
+  "pc": "0x4450fc",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -2.86,
+  "notes": ""
+ },
+ "80041cf8": {
+  "name": "Lower_Car_Vertices",
+  "pc": "0x445160",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "const",
+  "confidence": "low",
+  "score": 1.44,
+  "notes": ""
+ },
+ "80041df0": {
+  "name": "Detach_Damaged_Wheel",
+  "pc": "0x44520c",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 21.7,
+  "notes": ""
+ },
+ "80042480": {
+  "name": "Check_Bonnet_Removal",
+  "pc": "0x445684",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 15.76,
+  "notes": ""
+ },
+ "80042574": {
+  "name": "Check_Boot_Removal",
+  "pc": "0x445710",
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 16.89,
+  "notes": ""
+ },
+ "80042668": {
+  "name": "Init_Main_Without_Data",
+  "pc": "0x4457a8",
+  "file": "src/game/main_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "re-inits pads, GTE, sound, CD, card after the intro/outro EXE returns"
+ },
+ "80042740": {
+  "name": "Init_Main",
+  "pc": "0x445814",
+  "file": "src/game/main_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "hardware, sound, CD, card, DIRINFO directory, CD TOC, sample bank"
+ },
+ "8004291c": {
+  "name": "Set_Load_Textures",
+  "pc": "0x445894",
+  "file": "src/game/main_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "800429e0": {
+  "name": "Init_Graphics",
+  "pc": "0x445ba0",
+  "file": "src/game/main_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "80042a08": {
+  "name": "Queue_Level_Data",
+  "pc": "0x445c70",
+  "file": "src/game/main_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "80042a48": {
+  "name": "Relocate_Level_Data",
+  "pc": "0x445ca8",
+  "file": "src/game/main_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "port keeps the 29 section offsets, see level_data_section"
+ },
+ "80042bb4": {
+  "name": "Init_Game",
+  "pc": "0x445da4",
+  "file": "src/game/main_init.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 66.01,
+  "notes": ""
+ },
+ "80042e28": {
+  "name": "Sound_Timer_VSync_Callback",
+  "pc": "0x4457a0",
+  "file": "src/game/main_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "VSyncCallback: Sound_Timer every vblank"
+ },
+ "8004312c": {
+  "name": "Play_Intro",
+  "pc": "0x445ef0",
+  "file": "src/game/main_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "runs the movie player (game/movie.c, the NTSCINTR.EXE code) instead of loading the executable"
+ },
+ "800431d4": {
+  "name": "Play_Xtro",
+  "pc": "0x445f2c",
+  "file": "src/game/main_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "runs the movie player (game/movie.c, the NTSCXTRO.EXE code) instead of loading the executable"
+ },
+ "8004327c": {
+  "name": "Initialise_Pause_Mode",
+  "pc": "0x445f70",
+  "file": "src/game/pause.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.09,
+  "notes": ""
+ },
+ "80043718": {
+  "name": "Pause_Mode",
+  "pc": "0x446390",
+  "file": "src/game/pause.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 15.75,
+  "notes": ""
+ },
+ "80044e90": {
+  "name": "Init_Pit_State",
+  "pc": "0x446d50",
+  "file": "src/game/pause.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": 0.14,
+  "notes": ""
+ },
+ "80044eb8": {
+  "name": "UndentCar",
+  "pc": "0x446d9c",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 0.08,
+  "notes": "calls Dent_Car_Zone, called by Pit_Camera_Control"
+ },
+ "80045500": {
+  "name": "SetHighLight",
+  "pc": "0x447120",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 10.63,
+  "notes": ""
+ },
+ "8004571c": {
+  "name": "Drive_Car_Into_Pit",
+  "pc": "0x447300",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 21.25,
+  "notes": ""
+ },
+ "80045928": {
+  "name": "Control_Car_Replay",
+  "pc": "0x4474a0",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 11.25,
+  "notes": ""
+ },
+ "80045da8": {
+  "name": "Init_Replay_Script",
+  "pc": "0x4478e0",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.71,
+  "notes": ""
+ },
+ "80045e18": {
+  "name": "Record_Event",
+  "pc": "0x447940",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 10.92,
+  "notes": ""
+ },
+ "80045f74": {
+  "name": "Terminate_Replay",
+  "pc": "0x447a2c",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.27,
+  "notes": ""
+ },
+ "80045fc8": {
+  "name": "Terminate_Replay_Bodge",
+  "pc": "0x447a60",
+  "file": "src/game/replay.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.03,
+  "notes": ""
+ },
+ "80046000": {
+  "name": "Init_Race_Sounds",
+  "pc": "0x447aa0",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 12.12,
+  "notes": ""
+ },
+ "800461d8": {
+  "name": "Update_Race_Sounds",
+  "pc": "0x447bdc",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 23.78,
+  "notes": ""
+ },
+ "8004694c": {
+  "name": "Amplitude",
+  "pc": "0x447f3c",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.38,
+  "notes": ""
+ },
+ "80046a88": {
+  "name": "DopplerFrequency",
+  "pc": "0x447fe8",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.98,
+  "notes": ""
+ },
+ "80046d20": {
+  "name": "Allocate_Sound_Effect",
+  "pc": "0x44815c",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 21.6,
+  "notes": ""
+ },
+ "80046e4c": {
+  "name": "Get_Engine_Frequency",
+  "pc": "0x4481fc",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.89,
+  "notes": ""
+ },
+ "80046fe0": {
+  "name": "Load_Game_Vags",
+  "pc": "0x448310",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 8.24,
+  "notes": ""
+ },
+ "80047154": {
+  "name": "Update_Race_Commentary",
+  "pc": "0x448368",
+  "file": "src/game/sound_fx.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 18.89,
+  "notes": ""
+ },
+ "8004820c": {
+  "name": "Strip_Trigger_Handler",
+  "pc": "0x448f8c",
+  "file": "src/game/triggers.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.82,
+  "notes": ""
+ },
+ "800482e0": {
+  "name": "Sparking",
+  "pc": "0x448ff0",
+  "file": "src/game/triggers.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 1.33,
+  "notes": "calls Pop_Particle_Slot, calls Sparks, called by Car_Movement"
+ },
+ "80048a90": {
+  "name": "Init_Front_End",
+  "pc": "0x44b2b8",
+  "file": "src/game/frontend_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "80048f90": {
+  "name": "Set_Pad_Button_Sprites",
+  "pc": null,
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: button icons for the pad type into ZZZZPAD1-5"
+ },
+ "800491dc": {
+  "name": "Pad_Change_Callback",
+  "pc": null,
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8004925c": {
+  "name": "View_Frontend_Replay",
+  "pc": "0x44b62c",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 9.17,
+  "notes": ""
+ },
+ "800492cc": {
+  "name": "DemoMode",
+  "pc": "0x44b650",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 9.52,
+  "notes": ""
+ },
+ "800493c8": {
+  "name": "Init_Camcorder_Name",
+  "pc": "0x44b730",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "80049468": {
+  "name": "Loading_Screen_From_Slab",
+  "pc": "0x44b744",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 39.8,
+  "notes": ""
+ },
+ "800495cc": {
+  "name": "Show_Camcorder_Loading_Screen",
+  "pc": "0x44baec",
+  "file": "src/game/frontend_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "loading screen lists + Rotate_Slab_Off; PC 0x44baec"
+ },
+ "8004961c": {
+  "name": "Show_Loading_Picture",
+  "pc": "0x44b7f4",
+  "file": "src/game/frontend_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "COPYRITE.RAW once (copyright_pending), then LOADING.RAW; 320x256 to both display buffers"
+ },
+ "800496ec": {
+  "name": "Load_Completion_Status",
+  "pc": "0x44b824",
+  "file": "src/game/frontend_init.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "loading bar, Buffer_Load progress callback"
+ },
+ "80049928": {
+  "name": "Start_Selected_Race",
+  "pc": "0x44b978",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 23.3,
+  "notes": ""
+ },
+ "80049bbc": {
+  "name": "Show_Camcorder_Loading_Screen",
+  "pc": "0x44baec",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 6.76,
+  "notes": ""
+ },
+ "80049c60": {
+  "name": "Setup_Pad",
+  "pc": "0x44bbe0",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(type, layout, config0, config1); layout tables at 0x80071144"
+ },
+ "80049e00": {
+  "name": "Init_Wrecking_Championship",
+  "pc": "0x44bcc0",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 13.23,
+  "notes": ""
+ },
+ "80049e58": {
+  "name": "Init_StockCar_Championship",
+  "pc": "0x44bd04",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 13.23,
+  "notes": ""
+ },
+ "80049eb0": {
+  "name": "Start_Multi_Wrecking_Championship",
+  "pc": "0x44bd48",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 10.27,
+  "notes": ""
+ },
+ "80049f00": {
+  "name": "Init_StockCar_MultiChamp",
+  "pc": "0x44bd88",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 10.27,
+  "notes": ""
+ },
+ "80049f50": {
+  "name": "Championship",
+  "pc": "0x44bdc8",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 30.59,
+  "notes": ""
+ },
+ "8004a0e8": {
+  "name": "MultiChamp",
+  "pc": "0x44bec8",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 28.06,
+  "notes": ""
+ },
+ "8004a2ec": {
+  "name": "Calculate_Finish",
+  "pc": "0x44c018",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.97,
+  "notes": ""
+ },
+ "8004a6e0": {
+  "name": "Calculate_Results",
+  "pc": "0x44c250",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 11.91,
+  "notes": ""
+ },
+ "8004a898": {
+  "name": "Do_End_Of_Season_Stuff",
+  "pc": "0x44c394",
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 9.9,
+  "notes": ""
+ },
+ "8004a988": {
+  "name": "Init_League_Info",
+  "pc": "0x44c430",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 7.49,
+  "notes": ""
+ },
+ "8004aa58": {
+  "name": "Reset_League_Info",
+  "pc": "0x44c498",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.05,
+  "notes": ""
+ },
+ "8004aa98": {
+  "name": "Init_MultiLeague_Info",
+  "pc": "0x44c504",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 9.8,
+  "notes": ""
+ },
+ "8004ab34": {
+  "name": "Setup_Driver_Names",
+  "pc": "0x44c550",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 8.33,
+  "notes": ""
+ },
+ "8004ac14": {
+  "name": "Copy_Race_Results_To_Champ_Info",
+  "pc": "0x44c5d8",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 4.51,
+  "notes": ""
+ },
+ "8004acd0": {
+  "name": "Add_Computer_Info",
+  "pc": "0x44c64c",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 5.66,
+  "notes": ""
+ },
+ "8004ada8": {
+  "name": "Update_League_Info",
+  "pc": "0x44c6c8",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 1.76,
+  "notes": ""
+ },
+ "8004ade8": {
+  "name": "Bank_MultiLeague_Points",
+  "pc": "0x44c6f8",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.4,
+  "notes": ""
+ },
+ "8004af6c": {
+  "name": "Sort_MultiLeague",
+  "pc": "0x44c768",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.4,
+  "notes": ""
+ },
+ "8004afcc": {
+  "name": "Sort_RacePos",
+  "pc": "0x44c7a0",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 6.14,
+  "notes": ""
+ },
+ "8004b10c": {
+  "name": "Promote_And_Relegate",
+  "pc": "0x44c884",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.62,
+  "notes": ""
+ },
+ "8004b254": {
+  "name": "Check_League_Standing",
+  "pc": "0x44c92c",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 6.92,
+  "notes": ""
+ },
+ "8004b2b8": {
+  "name": "Order_Cars",
+  "pc": "0x44c970",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 11.22,
+  "notes": ""
+ },
+ "8004b348": {
+  "name": "Rank_League_Entries",
+  "pc": "0x44c9c0",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": 0.27,
+  "notes": ""
+ },
+ "8004b494": {
+  "name": "Init_Post_Race_Front_End",
+  "pc": "0x44caa8",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 74.45,
+  "notes": ""
+ },
+ "8004b794": {
+  "name": "View_Results_Replay",
+  "pc": "0x44ccd0",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.1,
+  "notes": ""
+ },
+ "8004b7dc": {
+  "name": "Play_Recorded_Replay",
+  "pc": "0x44cd08",
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 3.86,
+  "notes": ""
+ },
+ "8004b810": {
+  "name": "Start_New_Season_Stats",
+  "pc": "0x44d550",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+sdk",
+  "confidence": "high",
+  "score": 6.04,
+  "notes": ""
+ },
+ "8004b878": {
+  "name": "Start_Next_Season_Stats",
+  "pc": "0x44d594",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 5.57,
+  "notes": ""
+ },
+ "8004b9e8": {
+  "name": "Update_Track_Stats",
+  "pc": "0x44d638",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.0,
+  "notes": ""
+ },
+ "8004bbc8": {
+  "name": "Update_Driver_Stats",
+  "pc": "0x44d6f8",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 2.05,
+  "notes": ""
+ },
+ "8004bdcc": {
+  "name": "Update_Championship_Stats",
+  "pc": "0x44d798",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "low",
+  "score": 1.88,
+  "notes": ""
+ },
+ "8004be80": {
+  "name": "Get_First_Recorded_Season",
+  "pc": "0x44d7f0",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 6.44,
+  "notes": ""
+ },
+ "8004bea0": {
+  "name": "Get_Current_Recording_Season",
+  "pc": "0x44d808",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 6.36,
+  "notes": ""
+ },
+ "8004beac": {
+  "name": "Copy_Fastest_Laps_To_Track_Records",
+  "pc": "0x44d810",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.64,
+  "notes": ""
+ },
+ "8004bf50": {
+  "name": "Update_Jimmy_Spunk_Times",
+  "pc": "0x44d85c",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+sdk",
+  "confidence": "high",
+  "score": 5.75,
+  "notes": ""
+ },
+ "8004c1d0": {
+  "name": "Allocate_Font_Buffers",
+  "pc": "0x4210f0",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004c2b0": {
+  "name": "Setup_Font",
+  "pc": "0x4211a8",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(sprite name, font, flag)"
+ },
+ "8004c340": {
+  "name": "Duplicate_Font",
+  "pc": "0x4211f4",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(font, new font, CLUT sprite name)"
+ },
+ "8004c464": {
+  "name": "Print_Locate",
+  "pc": "0x4212e8",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004c4d8": {
+  "name": "Print_Font",
+  "pc": "0x421334",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004c520": {
+  "name": "Print_Ink",
+  "pc": "0x42138c",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "rgb from a 3-byte pointer"
+ },
+ "8004c5a8": {
+  "name": "Print_InkRGB",
+  "pc": "0x4213cc",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(r, g, b)"
+ },
+ "8004c648": {
+  "name": "Print",
+  "pc": "0x421404",
+  "file": "src/graphics/font.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "was mis-mapped as Setup_Credits_Page (const); link order and callees (Print_Parse_*, Set_Glyph_Quad_Attrs, Print_Close_Bank) match PC Print"
+ },
+ "8004d42c": {
+  "name": "Print_Draw",
+  "pc": "0x4220e0",
+  "file": "src/graphics/font.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "was mis-mapped as Draw_Screen_Polys (graph); calls Print_Bank_Fade/Perspective/Layout_Gte and Draw_Font_Poly like PC Print_Draw"
+ },
+ "8004d53c": {
+  "name": "Reset_Print_Banks",
+  "pc": "0x422194",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004d5b8": {
+  "name": "Print_Parse_Rgb",
+  "pc": "0x4221fc",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004d62c": {
+  "name": "Print_Parse_Int3",
+  "pc": "0x422258",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004d6a0": {
+  "name": "Print_Parse_Int",
+  "pc": "0x4222b4",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004d760": {
+  "name": "Print_Close_Bank",
+  "pc": "0x42231c",
+  "file": "src/graphics/font.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004d8a8": {
+  "name": "Print_Bank_Fade",
+  "pc": "0x422488",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "by order and size; check body"
+ },
+ "8004db94": {
+  "name": "Print_Bank_Perspective",
+  "pc": "0x422678",
+  "file": "src/graphics/font.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "by order and size; check body"
+ },
+ "8004e128": {
+  "name": "Print_Bank_Layout_Gte",
+  "pc": "0x422a6c",
+  "file": "src/graphics/font.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "uses GTE, as the PC one"
+ },
+ "8004e344": {
+  "name": "CD_Open",
+  "pc": "0x416094",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "CdInit wrapper; also called before Exec of the intro"
+ },
+ "8004e364": {
+  "name": "Set_CD_Volume",
+  "pc": null,
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: SPU common attr CD volume (mask 0xC0), value << 3"
+ },
+ "8004e3a4": {
+  "name": "Set_CD_Track",
+  "pc": "0x41617c",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(track, loop); TOC at 0x8007C728"
+ },
+ "8004e424": {
+  "name": "CD_Stop",
+  "pc": "0x4162b4",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "CdlStop"
+ },
+ "8004e454": {
+  "name": "CD_Pause",
+  "pc": "0x4162e4",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "CdlPause"
+ },
+ "8004e484": {
+  "name": "CD_Restart",
+  "pc": "0x416314",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "CdlPlay with loop callback"
+ },
+ "8004e4bc": {
+  "name": "Read_CD_Toc",
+  "pc": "0x416174",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "CdGetToc + CdMix"
+ },
+ "8004e520": {
+  "name": "CD_Set_Play_Range",
+  "pc": null,
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: start/end loc, CdlSetmode 5, CdlSeekP"
+ },
+ "8004e5a0": {
+  "name": "Start_CD_Audio",
+  "pc": "0x4161ec",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004e5e0": {
+  "name": "Check_For_CD_Loop",
+  "pc": "0x416228",
+  "file": "src/sound/cd.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "CdReadyCallback: loops or pauses at the track end"
+ },
+ "8004e698": {
+  "name": "reset_sound_channels",
+  "pc": "0x415ae4",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "24 SPU voice records of 0x68 bytes at 0x8007BD40"
+ },
+ "8004e734": {
+  "name": "Sound_Init",
+  "pc": "0x415ad8",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004e794": {
+  "name": "set_master_volume",
+  "pc": "0x415ba0",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004e7a0": {
+  "name": "Sound_Reverb_On",
+  "pc": null,
+  "file": "src/sound/sound.c",
+  "status": "mapped",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "no callers in the PSX code; not ported"
+ },
+ "8004e7c8": {
+  "name": "Sound_Reverb_Off",
+  "pc": null,
+  "file": "src/sound/sound.c",
+  "status": "mapped",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "no callers in the PSX code; not ported"
+ },
+ "8004e7fc": {
+  "name": "Sound_Set_Reverb",
+  "pc": null,
+  "file": "src/sound/sound.c",
+  "status": "mapped",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "no callers in the PSX code; not ported"
+ },
+ "8004e894": {
+  "name": "Sound_Set_Reverb_Depth",
+  "pc": null,
+  "file": "src/sound/sound.c",
+  "status": "mapped",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "no callers in the PSX code; not ported"
+ },
+ "8004e8d0": {
+  "name": "Play_Sound",
+  "pc": "0x415d28",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(channel or -1, bank, sample, volume, pitch 4096=1.0, pan); SPU pitch = ((pitch*rate)>>12 <<12)/44100"
+ },
+ "8004ebf0": {
+  "name": "Modify_Sound",
+  "pc": "0x415f10",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(channel, volume, pitch, pan) on a playing voice"
+ },
+ "8004ed5c": {
+  "name": "Sound_Pause",
+  "pc": "0x415bdc",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "zero volume on all voices"
+ },
+ "8004ed98": {
+  "name": "Sound_Restart",
+  "pc": "0x415c18",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "never called"
+ },
+ "8004ee10": {
+  "name": "Kill_Sound",
+  "pc": "0x415c5c",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "never called on PSX"
+ },
+ "8004ee9c": {
+  "name": "Lock_Channel",
+  "pc": "0x415fb4",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(first, last)"
+ },
+ "8004ef28": {
+  "name": "Sound_Stop",
+  "pc": "0x415bc0",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "key off all voices, clear locks/loops/timers"
+ },
+ "8004efac": {
+  "name": "Sound_Timer",
+  "pc": "0x416358",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "counts down one-shot voices; on PSX per vblank (PC: every 400 ms)"
+ },
+ "8004f010": {
+  "name": "Find_Unlocked_Channel",
+  "pc": "0x4164e4",
+  "file": "src/sound/sound.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(priority): free voice, else a voice with lower priority, else -1"
+ },
+ "8004f0c0": {
+  "name": "Setup_View_Norm",
+  "pc": "0x420080",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f278": {
+  "name": "set_screen_centre",
+  "pc": "0x42016c",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f2b4": {
+  "name": "set_projection_distance",
+  "pc": "0x420190",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f2e0": {
+  "name": "Set_Zclip",
+  "pc": "0x4201a4",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f37c": {
+  "name": "Set_World_Position",
+  "pc": "0x4201ec",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f3b4": {
+  "name": "Set_World_Matrix",
+  "pc": "0x42020c",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f404": {
+  "name": "Set_World_View",
+  "pc": "0x42024c",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f568": {
+  "name": "Set_Ambient_Light",
+  "pc": "0x420398",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "SetBackColor"
+ },
+ "8004f598": {
+  "name": "Set_Depth_Cue",
+  "pc": "0x4203ac",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "SetFarColor + SetFogNearFar"
+ },
+ "8004f5ec": {
+  "name": "Set_Object_View",
+  "pc": "0x4203dc",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f85c": {
+  "name": "Calc_Object_MatrixYXZ",
+  "pc": "0x4204d0",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f8d8": {
+  "name": "Calc_Object_MatrixYZX",
+  "pc": "0x420544",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004f954": {
+  "name": "Calc_Object_Angles",
+  "pc": "0x4205b8",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004faf8": {
+  "name": "Calc_Direction_Matrix",
+  "pc": "0x420708",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8004fe24": {
+  "name": "Point_Camera",
+  "pc": "0x4208dc",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "by order after Calc_Direction_Matrix; rsin/rcos/MulMatrix2"
+ },
+ "800502c4": {
+  "name": "Init_Pads",
+  "pc": null,
+  "file": "src/system/controller.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: InitPAD/StartPAD"
+ },
+ "8005030c": {
+  "name": "Init_Pad_Config",
+  "pc": null,
+  "file": "src/system/controller.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: copies the default button map in a critical section"
+ },
+ "80050464": {
+  "name": "Set_Pad_Change_Callback",
+  "pc": null,
+  "file": "src/system/controller.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: called by Poll_Pad_Buttons when the pad type changes"
+ },
+ "80050470": {
+  "name": "Poll_Pad_Buttons",
+  "pc": "0x422da4",
+  "file": "src/system/controller.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "digital, analog and NeGcon (0x23) pads; outputs held/pressed/mapped at 0x8008C480"
+ },
+ "80050a34": {
+  "name": "Set_Glyph_Quad_Attrs",
+  "pc": "0x420e20",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "POLY_FT4 code 0x2C, tpage and semi-transparency"
+ },
+ "80050b44": {
+  "name": "Draw_Font_Poly",
+  "pc": "0x420e74",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "addPrim on the current OT; PSX link order puts it with the draw-buffer code"
+ },
+ "80050ba0": {
+  "name": "Decompress",
+  "pc": "0x4155a0",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "LZSS; PSX link order puts it with the draw-buffer code"
+ },
+ "80050cb4": {
+  "name": "Allocate_OT",
+  "pc": "0x420dc0",
+  "file": "src/graphics/object.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "80050d10": {
+  "name": "Set_Draw_Mode",
+  "pc": "0x420bd0",
+  "file": "src/graphics/object.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PC Set_Draw_Mode: PAL/NTSC draw and display envs, screen_width/height, draw_height, frames_per_sec (NTSC 60); calls Psy-Q SetVideoMode for PAL"
+ },
+ "80050e78": {
+  "name": "Swap_Draw_Buffers",
+  "pc": "0x420c4c",
+  "file": "src/graphics/object.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "toggles cdb, ClearOTagR (PC Swap_Draw_Buffers has the same body)"
+ },
+ "80050ed0": {
+  "name": "Swap_Buffers",
+  "pc": "0x420df4",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "waits until n vblanks since the last frame, puts envs (PC Swap_Buffers: VSync + envs)"
+ },
+ "80050f70": {
+  "name": "Draw_All",
+  "pc": "0x420c9c",
+  "file": "src/graphics/object.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "as Swap_Draw_Buffers plus DrawOTag: the frame pacing"
+ },
+ "8005102c": {
+  "name": "Draw_Tile",
+  "pc": "0x420ce8",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "TILE code 0x60"
+ },
+ "8005118c": {
+  "name": "File_Passthrough",
+  "pc": "0x414f80",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "File_Func_List[0]"
+ },
+ "800511c0": {
+  "name": "Load_Textures",
+  "pc": "0x414f88",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "uploads 4/8-bit texture pages and their CLUTs"
+ },
+ "80051538": {
+  "name": "Load_Texture_Table_File",
+  "pc": "0x415000",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "File_Func_List[3]"
+ },
+ "80051600": {
+  "name": "Load_Texture_Data_File",
+  "pc": "0x415044",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "File_Func_List[4]"
+ },
+ "8005165c": {
+  "name": "File_Load_Cluts_Entry",
+  "pc": null,
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "File_Func_List[5]"
+ },
+ "800517ec": {
+  "name": "Add_Buffer_Load",
+  "pc": "0x4150f8",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "queues (name, dest, type&0x1f)"
+ },
+ "800518d4": {
+  "name": "Buffer_Load",
+  "pc": "0x4151b0",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "reads the queue from CD with a per-file callback"
+ },
+ "80051c58": {
+  "name": "Read_Directory",
+  "pc": "0x415344",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "reads the 5-sector DIRINFO table"
+ },
+ "80051d54": {
+  "name": "File_Load",
+  "pc": "0x4153a4",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "(name, dest) -> size"
+ },
+ "80051e98": {
+  "name": "dispatch_file_record",
+  "pc": "0x415424",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "handler table at 0x800717C0 by type bits 3..7"
+ },
+ "80051f58": {
+  "name": "directory_has_file",
+  "pc": "0x415454",
+  "file": "src/system/file.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "80051ff4": {
+  "name": "Lookup_Load_File",
+  "pc": "0x415498",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "DIRINFO entry -> sector, size"
+ },
+ "800520d4": {
+  "name": "Sector_To_CdlLOC",
+  "pc": null,
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "80052304": {
+  "name": "CdlLOC_To_Sector",
+  "pc": null,
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "80052460": {
+  "name": "Load_Sample_Bank",
+  "pc": "0x416404",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "File_Func_List[1], PSX-only: .SBK data to SPU RAM (PC uses File_Passthrough here)"
+ },
+ "800525ec": {
+  "name": "load_font_cluts",
+  "pc": "0x415508",
+  "file": "src/system/file.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "File_Func_List[2]"
+ },
+ "80052884": {
+  "name": "Calc_Arc_Sin",
+  "pc": null,
+  "file": "src/system/maths.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "800528fc": {
+  "name": "Calc_Angle",
+  "pc": "0x423934",
+  "file": "src/system/maths.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "80052c68": {
+  "name": "MPE_malloc",
+  "pc": "0x423714",
+  "file": "src/system/mpe_heap.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "thin malloc wrapper on PSX"
+ },
+ "80052c88": {
+  "name": "MPE_free",
+  "pc": "0x42377c",
+  "file": "src/system/mpe_heap.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "thin free wrapper on PSX"
+ },
+ "80052ca8": {
+  "name": "MPE_realloc",
+  "pc": null,
+  "file": "src/system/mpe_heap.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only thin realloc wrapper"
+ },
+ "80052cc8": {
+  "name": "convert_poly_f3",
+  "pc": "0x417f00",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80052d44": {
+  "name": "draw_face_3pt_flat",
+  "pc": "0x417f5c",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80052eb4": {
+  "name": "draw_face_3pt_flat_lit",
+  "pc": "0x418128",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80053070": {
+  "name": "draw_face_3pt_flat_dpq",
+  "pc": "0x4182ec",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80053200": {
+  "name": "draw_face_3pt_flat_dpq_lit",
+  "pc": "0x4184b8",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800533bc": {
+  "name": "convert_poly_f4",
+  "pc": "0x41867c",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80053438": {
+  "name": "draw_face_4pt_flat",
+  "pc": "0x4186d8",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800535fc": {
+  "name": "draw_face_4pt_flat_lit",
+  "pc": "0x4188ec",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "8005380c": {
+  "name": "draw_face_4pt_flat_dpq",
+  "pc": "0x418b04",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800539f0": {
+  "name": "draw_face_4pt_flat_dpq_lit",
+  "pc": "0x418d18",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80053c00": {
+  "name": "convert_poly_ft3",
+  "pc": "0x418f30",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80053d04": {
+  "name": "draw_face_3pt_text",
+  "pc": "0x419040",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80053e74": {
+  "name": "draw_face_3pt_text_squash",
+  "pc": "0x41920c",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80054548": {
+  "name": "draw_face_3pt_text_lit",
+  "pc": "0x419738",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80054704": {
+  "name": "draw_face_3pt_text_dpq",
+  "pc": "0x419a40",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80054894": {
+  "name": "draw_face_3pt_text_dpq_squash",
+  "pc": "0x419c24",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80054f84": {
+  "name": "draw_face_3pt_text_dpq_lit",
+  "pc": "0x41a16c",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80055140": {
+  "name": "convert_poly_ft4",
+  "pc": "0x41a3b4",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80055258": {
+  "name": "draw_face_4pt_text",
+  "pc": "0x41a4cc",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80055440": {
+  "name": "draw_face_4pt_text_squash",
+  "pc": "0x41a72c",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80055d28": {
+  "name": "draw_face_4pt_text_lit",
+  "pc": "0x41adec",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80055f38": {
+  "name": "draw_face_4pt_text_dpq",
+  "pc": "0x41b14c",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80056140": {
+  "name": "draw_face_4pt_text_dpq_squash",
+  "pc": "0x41b3d0",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80056a44": {
+  "name": "draw_face_4pt_text_dpq_lit",
+  "pc": "0x41baac",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80056c54": {
+  "name": "convert_poly_g3",
+  "pc": "0x41bd3c",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80056cf0": {
+  "name": "convert_poly_g3_lit",
+  "pc": "0x41bd98",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80056d60": {
+  "name": "draw_face_3pt_gour",
+  "pc": "0x41bdf4",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80056ed0": {
+  "name": "draw_face_3pt_gour_lit",
+  "pc": "0x41bfc0",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800570dc": {
+  "name": "draw_face_3pt_gour_dpq",
+  "pc": "0x41c184",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800572a0": {
+  "name": "draw_face_3pt_gour_dpq_lit",
+  "pc": "0x41c350",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800574ac": {
+  "name": "convert_poly_g4",
+  "pc": "0x41c514",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80057554": {
+  "name": "convert_poly_g4_lit",
+  "pc": "0x41c570",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800575c4": {
+  "name": "draw_face_4pt_gour",
+  "pc": "0x41c5cc",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80057788": {
+  "name": "draw_face_4pt_gour_lit",
+  "pc": "0x41c7e0",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80057a1c": {
+  "name": "draw_face_4pt_gour_dpq",
+  "pc": "0x41c9f8",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80057c58": {
+  "name": "draw_face_4pt_gour_dpq_lit",
+  "pc": "0x41cc10",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80057ee0": {
+  "name": "convert_poly_gt3",
+  "pc": "0x41ce28",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058004": {
+  "name": "convert_poly_gt3_lit",
+  "pc": "0x41cf00",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058104": {
+  "name": "draw_face_3pt_pict",
+  "pc": "0x41cfbc",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058274": {
+  "name": "draw_face_3pt_pict_lit",
+  "pc": "0x41d188",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058480": {
+  "name": "draw_face_3pt_pict_dpq",
+  "pc": "0x41d490",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058658": {
+  "name": "draw_face_3pt_pict_dpq_lit",
+  "pc": "0x41d718",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058864": {
+  "name": "convert_poly_gt4",
+  "pc": "0x41d964",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "8005899c": {
+  "name": "convert_poly_gt4_lit",
+  "pc": "0x41da48",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058aa4": {
+  "name": "draw_face_4pt_pict",
+  "pc": "0x41db10",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058c68": {
+  "name": "draw_face_4pt_pict_lit",
+  "pc": "0x41dd24",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80058efc": {
+  "name": "draw_face_4pt_pict_dpq",
+  "pc": "0x41e084",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80059140": {
+  "name": "draw_face_4pt_pict_dpq_lit",
+  "pc": "0x41e2b4",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800593d4": {
+  "name": "convert_poly_sprite",
+  "pc": "0x41e548",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800594ec": {
+  "name": "draw_face_sprite",
+  "pc": "0x41e624",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "800599ac": {
+  "name": "draw_face_sprite_dpq",
+  "pc": "0x41ea78",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "80059e94": {
+  "name": "draw_face_centred_tilt_sprite",
+  "pc": "0x41eeec",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "8005a388": {
+  "name": "draw_face_centred_tilt_sprite_dpq",
+  "pc": "0x41f350",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "8005a8a4": {
+  "name": "draw_face_tilt_sprite",
+  "pc": "0x41f7d0",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "8005aa88": {
+  "name": "draw_face_tilt_sprite_dpq",
+  "pc": "0x41fa30",
+  "file": "src/graphics/draw_face.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX: GTE assembly renderer; named by its index in the face tables (0x80072044/0x800720F4/0x800721A4)"
+ },
+ "8005ac90": {
+  "name": "Build_Object_Packets",
+  "pc": "0x41fcac",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "walks the face list through the build table 0x800721A4"
+ },
+ "8005ad78": {
+  "name": "Create_Object",
+  "pc": "0x41fd30",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005aec0": {
+  "name": "Set_Object",
+  "pc": "0x41fd8c",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "relocates mesh offsets +0x20/+0x24/+0x28 in place, flag at +0x1E"
+ },
+ "8005af24": {
+  "name": "Remove_Object",
+  "pc": "0x41fddc",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005afb4": {
+  "name": "Draw_Subdiv_Object",
+  "pc": "0x41feec",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "face table 0x80072044"
+ },
+ "8005b0a0": {
+  "name": "Draw_Object_Level",
+  "pc": "0x41ff98",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "face table 0x800720F4, per detail level"
+ },
+ "8005b1a0": {
+  "name": "Update_Object",
+  "pc": "0x420054",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005b2f8": {
+  "name": "Init_Primitive_Buffer",
+  "pc": "0x420ea0",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005b3f0": {
+  "name": "Alloc_Prim_Buffer",
+  "pc": "0x420f9c",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "returns an offset or -1"
+ },
+ "8005b4a4": {
+  "name": "Free_Prim_Buffer",
+  "pc": "0x421018",
+  "file": "src/graphics/object.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005b5c8": {
+  "name": "Load_Sprite_Info",
+  "pc": "0x4166c0",
+  "file": "src/graphics/sprite.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005b5e0": {
+  "name": "Search_For_Sprite",
+  "pc": "0x4166d8",
+  "file": "src/graphics/sprite.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "binary search on the name at +0x0E of 0x18-byte entries"
+ },
+ "8005b6bc": {
+  "name": "Setup_Sprite_Quad",
+  "pc": "0x416764",
+  "file": "src/graphics/sprite.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "POLY_FT4 from a sprite entry; prints 'texture does not exist'"
+ },
+ "8005ba80": {
+  "name": "Modify_Sprite",
+  "pc": "0x416988",
+  "file": "src/graphics/sprite.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005bb40": {
+  "name": "InitCardSystem",
+  "pc": "0x423220",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "InitCARD/StartCARD and the 8 card events"
+ },
+ "8005bd30": {
+  "name": "Card_Info",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005bd58": {
+  "name": "Card_Wait_Sw_Event",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005bdcc": {
+  "name": "Card_Wait_Hw_Event",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005be40": {
+  "name": "Card_Clear_Hw_Events",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005be88": {
+  "name": "Card_Clear_Sw_Events",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005bed0": {
+  "name": "Card_Wait",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005bef0": {
+  "name": "Card_Load",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005bf20": {
+  "name": "Card_Format",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005c040": {
+  "name": "SaveCardFile",
+  "pc": "0x42335c",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "0x200 header + 0x1E00 data"
+ },
+ "8005c0c4": {
+  "name": "DeleteFileMC",
+  "pc": "0x423428",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005c100": {
+  "name": "Make_Card_Header",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: SC header, Shift-JIS title, icon"
+ },
+ "8005c338": {
+  "name": "Make_Card_Filename",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: bu00:BASCUS-94350 + name"
+ },
+ "8005c420": {
+  "name": "Card_Create_File",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005c460": {
+  "name": "Card_Write_File",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005c4fc": {
+  "name": "Read_Card_Directory",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: 15 slots, loads each save's icon"
+ },
+ "8005c8dc": {
+  "name": "LoadCardFile",
+  "pc": "0x423594",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005c980": {
+  "name": "Find_First_Card_Save",
+  "pc": "0x42366c",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "returns port << 16 | slot"
+ },
+ "8005cae0": {
+  "name": "LoadCardFiles",
+  "pc": "0x4234c0",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005ccb0": {
+  "name": "InitCardBlocks",
+  "pc": "0x42360c",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005cd6c": {
+  "name": "Check_Card_Status",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only: card inserted/removed"
+ },
+ "8005cf00": {
+  "name": "DupFileCheck",
+  "pc": "0x423620",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005cfe0": {
+  "name": "Load_Card_Icon",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005d0e4": {
+  "name": "Card_Is_Full",
+  "pc": null,
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only"
+ },
+ "8005d13c": {
+  "name": "FirstSavedGame",
+  "pc": "0x4235f0",
+  "file": "src/system/card.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "8005d260": {
+  "name": "Profile_Init",
+  "pc": "0x423ac0",
+  "file": "src/system/debug.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "root counters"
+ },
+ "8005d368": {
+  "name": "Debug_Stub",
+  "pc": "0x4237f0",
+  "file": "src/system/debug.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "empty; called by the menus every frame"
+ },
+ "8005d370": {
+  "name": "Subdivide_Object",
+  "pc": "0x416a70",
+  "file": "src/graphics/sprite.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "all six PC constants (20,31,32,36,40,44) present"
+ },
+ "FRONTEND:801c5870": {
+  "name": "Adjust_Sound_Volume",
+  "pc": "0x44e120",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 58.64,
+  "notes": ""
+ },
+ "FRONTEND:801c5dc4": {
+  "name": "Show_Music_Volume_Caption",
+  "pc": "0x44e2e8",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.03,
+  "notes": ""
+ },
+ "FRONTEND:801c5e1c": {
+  "name": "Show_Sound_Effects_Caption",
+  "pc": "0x44e308",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.53,
+  "notes": ""
+ },
+ "FRONTEND:801c5ecc": {
+  "name": "Update_Volume_Bars",
+  "pc": "0x44e330",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 11.12,
+  "notes": ""
+ },
+ "FRONTEND:801c622c": {
+  "name": "Car_Select_Screen",
+  "pc": "0x44e3fc",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 54.63,
+  "notes": ""
+ },
+ "FRONTEND:801c64a8": {
+  "name": "Select_Next_Car_Class_Stats",
+  "pc": "0x44e5a0",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.32,
+  "notes": ""
+ },
+ "FRONTEND:801c651c": {
+  "name": "Select_Prev_Car_Class_Stats",
+  "pc": "0x44e5d0",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.32,
+  "notes": ""
+ },
+ "FRONTEND:801c6590": {
+  "name": "Show_Car_Stat_Markers",
+  "pc": "0x44e600",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 13.31,
+  "notes": ""
+ },
+ "FRONTEND:801c6bf0": {
+  "name": "Spin_Car_Select_Model",
+  "pc": "0x44e7d8",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 11.2,
+  "notes": "calls Set_Object_View, calls Calc_Object_MatrixYXZ, calls Update_Object, called by Car_Select_Screen"
+ },
+ "FRONTEND:801c6e20": {
+  "name": "Restore_Menu_Swatch_Clut",
+  "pc": null,
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0.63,
+  "notes": ""
+ },
+ "FRONTEND:801c6e98": {
+  "name": "Centre_Screen_Page",
+  "pc": "0x44e950",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 26.61,
+  "notes": ""
+ },
+ "FRONTEND:801c7334": {
+  "name": "Config_Menu",
+  "pc": "0x44eae0",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 45.19,
+  "notes": ""
+ },
+ "FRONTEND:801c7994": {
+  "name": "Show_Control_Method_Caption",
+  "pc": "0x44ecdc",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.97,
+  "notes": ""
+ },
+ "FRONTEND:801c79ec": {
+  "name": "Show_Sound_Volume_Caption",
+  "pc": "0x44ed04",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801c7a9c": {
+  "name": "Show_Save_Config_Caption",
+  "pc": "0x44ed24",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801c7af4": {
+  "name": "Select_Save_Configuration",
+  "pc": "0x44ed44",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.34,
+  "notes": ""
+ },
+ "FRONTEND:801c7b30": {
+  "name": "Credits_Screen",
+  "pc": "0x44ed50",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 43.12,
+  "notes": ""
+ },
+ "FRONTEND:801c7d98": {
+  "name": "Setup_Credits_Page",
+  "pc": "0x44ee6c",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 27.17,
+  "notes": ""
+ },
+ "FRONTEND:801c8290": {
+  "name": "Print_Shadowed_Text",
+  "pc": "0x44f788",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.54,
+  "notes": ""
+ },
+ "FRONTEND:801c9104": {
+  "name": "Slide_Digital_Pad_In",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 26.55,
+  "notes": ""
+ },
+ "FRONTEND:801c9454": {
+  "name": "View_BestLaps",
+  "pc": "0x44ffc0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 45.91,
+  "notes": ""
+ },
+ "FRONTEND:801c95f8": {
+  "name": "Fill_Best_Laps_Table",
+  "pc": "0x450108",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 15.75,
+  "notes": ""
+ },
+ "FRONTEND:801c9850": {
+  "name": "Next_Best_Laps_Track",
+  "pc": "0x4501ec",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 3.9,
+  "notes": ""
+ },
+ "FRONTEND:801c9970": {
+  "name": "Front_End",
+  "pc": "0x4502a8",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 78.16,
+  "notes": ""
+ },
+ "FRONTEND:801ca520": {
+  "name": "Select_Go_Start_Race",
+  "pc": "0x4507f8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.34,
+  "notes": ""
+ },
+ "FRONTEND:801ca55c": {
+  "name": "Show_Race_Mode_Title",
+  "pc": "0x450800",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "menu_items[0].caption"
+ },
+ "FRONTEND:801ca664": {
+  "name": "Show_Track_Item_Titles",
+  "pc": "0x450840",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.89,
+  "notes": ""
+ },
+ "FRONTEND:801ca780": {
+  "name": "Show_Car_Item_Titles",
+  "pc": "0x45089c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.24,
+  "notes": ""
+ },
+ "FRONTEND:801ca840": {
+  "name": "Show_File_Manager_Title",
+  "pc": "0x4508d4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX text 'Memory card Manager'"
+ },
+ "FRONTEND:801ca8b8": {
+  "name": "Show_CD_Player_Title",
+  "pc": "0x450904",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.75,
+  "notes": ""
+ },
+ "FRONTEND:801ca930": {
+  "name": "Show_Information_Title",
+  "pc": "0x450934",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.75,
+  "notes": ""
+ },
+ "FRONTEND:801ca9a8": {
+  "name": "Show_Configuration_Title",
+  "pc": "0x450964",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.75,
+  "notes": ""
+ },
+ "FRONTEND:801caa20": {
+  "name": "Show_Go_Title",
+  "pc": "0x450994",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.75,
+  "notes": ""
+ },
+ "FRONTEND:801caa98": {
+  "name": "Toggle_Race_Type",
+  "pc": "0x4509d8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.73,
+  "notes": ""
+ },
+ "FRONTEND:801cac98": {
+  "name": "Toggle_Track",
+  "pc": "0x450a7c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "menu_items[2].toggle"
+ },
+ "FRONTEND:801cae78": {
+  "name": "Toggle_Car",
+  "pc": "0x450b04",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "menu_items[1].toggle"
+ },
+ "FRONTEND:801caf38": {
+  "name": "Remap_Team_Race_Menu_Item",
+  "pc": "0x450b3c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "called from Front_End navigation"
+ },
+ "FRONTEND:801cafc0": {
+  "name": "Show_Searching_For_Config",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX-only; was mapped as Ask_Quit_DD2 (strings): shows 'Please Wait.. Searching For Config' for 2 frames, the PC put a quit prompt at this place"
+ },
+ "FRONTEND:801cb204": {
+  "name": "Run_Info_Menu",
+  "pc": "0x451cc0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 48.36,
+  "notes": ""
+ },
+ "FRONTEND:801cb7cc": {
+  "name": "Show_View_Statistics_Caption",
+  "pc": "0x451f0c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801cb824": {
+  "name": "Show_View_Lap_Times_Caption",
+  "pc": "0x451f2c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.43,
+  "notes": ""
+ },
+ "FRONTEND:801cb87c": {
+  "name": "Show_View_Credits_Caption",
+  "pc": "0x451f4c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801cb8d4": {
+  "name": "CD_Player_Screen",
+  "pc": "0x451f70",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 47.54,
+  "notes": ""
+ },
+ "FRONTEND:801cbe54": {
+  "name": "Show_CD_Prev_Track_Caption",
+  "pc": "0x45219c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 7.21,
+  "notes": ""
+ },
+ "FRONTEND:801cbe94": {
+  "name": "Show_CD_Play_Caption",
+  "pc": "0x4521b0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 7.21,
+  "notes": ""
+ },
+ "FRONTEND:801cbed4": {
+  "name": "Show_CD_Stop_Caption",
+  "pc": "0x4521c4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 7.21,
+  "notes": ""
+ },
+ "FRONTEND:801cbf14": {
+  "name": "Show_CD_Next_Track_Caption",
+  "pc": "0x4521d8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 7.21,
+  "notes": ""
+ },
+ "FRONTEND:801cbf54": {
+  "name": "CD_Player_Previous_Track",
+  "pc": "0x4521ec",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.44,
+  "notes": ""
+ },
+ "FRONTEND:801cbfc0": {
+  "name": "CD_Player_Play_Track",
+  "pc": "0x45220c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph-checked",
+  "confidence": "high",
+  "score": 4.57,
+  "notes": "calls Set_CD_Track, calls Start_CD_Audio"
+ },
+ "FRONTEND:801cc01c": {
+  "name": "CD_Player_Stop",
+  "pc": "0x452228",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.66,
+  "notes": ""
+ },
+ "FRONTEND:801cc058": {
+  "name": "CD_Player_Next_Track",
+  "pc": "0x452230",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.48,
+  "notes": ""
+ },
+ "FRONTEND:801cc0c8": {
+  "name": "Set_CD_Track_Texts",
+  "pc": "0x452250",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.68,
+  "notes": ""
+ },
+ "FRONTEND:801cdcd0": {
+  "name": "Enter_Driver_Names",
+  "pc": "0x4522b0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 70.4,
+  "notes": ""
+ },
+ "FRONTEND:801ce6f8": {
+  "name": "Restart_Name_Entry_Screen",
+  "pc": "0x4526f0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 21.15,
+  "notes": ""
+ },
+ "FRONTEND:801ce8d0": {
+  "name": "Control_Method_Menu",
+  "pc": "0x452760",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 34.22,
+  "notes": ""
+ },
+ "FRONTEND:801d1608": {
+  "name": "Choose_Race_Mode",
+  "pc": "0x4529b0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 39.37,
+  "notes": ""
+ },
+ "FRONTEND:801d1aa0": {
+  "name": "Show_Wrecking_Racing_Caption",
+  "pc": "0x452b94",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.43,
+  "notes": ""
+ },
+ "FRONTEND:801d1af8": {
+  "name": "Show_Stock_Car_Caption",
+  "pc": "0x452bb4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801d1b50": {
+  "name": "Show_Destruction_Derby_Caption",
+  "pc": "0x452bd4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801d1ba8": {
+  "name": "Select_Wrecking",
+  "pc": "0x452bf4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "race_mode_items[0].select: Choose_Race_Type, then race_mode 0"
+ },
+ "FRONTEND:801d1c00": {
+  "name": "Select_Stock",
+  "pc": "0x452c0c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "race_mode_items[1].select"
+ },
+ "FRONTEND:801d1c5c": {
+  "name": "Select_DD",
+  "pc": "0x452c24",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "race_mode_items[2].select: Choose_DD_Race_Type"
+ },
+ "FRONTEND:801d1cb8": {
+  "name": "Practice_Over",
+  "pc": "0x452c40",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 57.7,
+  "notes": ""
+ },
+ "FRONTEND:801d236c": {
+  "name": "Show_Practice_View_Replay_Caption",
+  "pc": "0x452ef0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801d23c4": {
+  "name": "Show_Practice_Save_Replay_Caption",
+  "pc": "0x452f10",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801d241c": {
+  "name": "Show_Practice_Quit_Caption",
+  "pc": "0x452f30",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801d2474": {
+  "name": "Select_Practice_Save_Replay",
+  "pc": "0x452f50",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.34,
+  "notes": ""
+ },
+ "FRONTEND:801d24b0": {
+  "name": "Select_Practice_Quit",
+  "pc": "0x452f58",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.73,
+  "notes": ""
+ },
+ "FRONTEND:801d24dc": {
+  "name": "Select_Practice_View_Replay",
+  "pc": "0x452f60",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 4.27,
+  "notes": ""
+ },
+ "FRONTEND:801d252c": {
+  "name": "Choose_Race_Type",
+  "pc": "0x452f80",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 39.37,
+  "notes": ""
+ },
+ "FRONTEND:801d29c4": {
+  "name": "Show_Championship_Caption",
+  "pc": "0x453164",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.43,
+  "notes": ""
+ },
+ "FRONTEND:801d2a1c": {
+  "name": "Show_Practice_Caption",
+  "pc": "0x453184",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.43,
+  "notes": ""
+ },
+ "FRONTEND:801d2a74": {
+  "name": "Show_Time_Trials_Caption",
+  "pc": "0x4531a4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801d2acc": {
+  "name": "Show_Multiplayer_Caption",
+  "pc": "0x4531c4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "race_type_items[3].caption"
+ },
+ "FRONTEND:801d2b24": {
+  "name": "Show_Total_Destruction_Caption",
+  "pc": "0x4531e4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "FRONTEND:801d2b7c": {
+  "name": "Select_Champ",
+  "pc": "0x453204",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "Enter_Driver_Names(1, 1), race_type 4"
+ },
+ "FRONTEND:801d2c04": {
+  "name": "Select_Multi",
+  "pc": "0x453240",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "Enter_Driver_Names(1, 10), race_type 3"
+ },
+ "FRONTEND:801d2c8c": {
+  "name": "Select_ChampQS",
+  "pc": "0x45327c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.76,
+  "notes": ""
+ },
+ "FRONTEND:801d2d04": {
+  "name": "Select_Pract",
+  "pc": "0x4532c0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "called by Toggle_Race_Type"
+ },
+ "FRONTEND:801d2d64": {
+  "name": "Select_TimeT",
+  "pc": "0x4532fc",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "called by Toggle_Race_Type"
+ },
+ "FRONTEND:801d2dc8": {
+  "name": "Select_Total",
+  "pc": "0x453330",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "called by Toggle_Race_Type"
+ },
+ "FRONTEND:801d2e2c": {
+  "name": "Select_DDPract",
+  "pc": "0x453370",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "called by Toggle_Race_Type"
+ },
+ "FRONTEND:801d2e8c": {
+  "name": "Choose_DD_Race_Type",
+  "pc": "0x4533b0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 39.37,
+  "notes": ""
+ },
+ "FRONTEND:801d3324": {
+  "name": "Restrict_Race_Track_Group",
+  "pc": "0x453594",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "PSX calls it from the Select_* functions"
+ },
+ "FRONTEND:801d33a4": {
+  "name": "Run_Track_Select",
+  "pc": "0x4535c0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 47.68,
+  "notes": ""
+ },
+ "FRONTEND:801d363c": {
+  "name": "Step_Track_Select_Next",
+  "pc": "0x453718",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.83,
+  "notes": ""
+ },
+ "FRONTEND:801d3684": {
+  "name": "Step_Track_Select_Prev",
+  "pc": "0x45372c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.83,
+  "notes": ""
+ },
+ "FRONTEND:801d36cc": {
+  "name": "Set_Track_Picture_Names",
+  "pc": "0x453740",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 5.49,
+  "notes": ""
+ },
+ "FRONTEND:801d3c4c": {
+  "name": "Toggle_Track_With_Unlocks",
+  "pc": "0x453780",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 9.88,
+  "notes": ""
+ },
+ "GENERAL:801e09d0": {
+  "name": "LoadSave",
+  "pc": "0x4494e0",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 95.66,
+  "notes": ""
+ },
+ "GENERAL:801e1588": {
+  "name": "Select_Card_File",
+  "pc": "0x449868",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 60.28,
+  "notes": ""
+ },
+ "GENERAL:801e22f0": {
+  "name": "Init_LoadSave_Prim_Codes",
+  "pc": "0x449a68",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 3.39,
+  "notes": ""
+ },
+ "GENERAL:801e2950": {
+  "name": "Draw_LoadSave_Slot_Grid",
+  "pc": "0x449a98",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 24.97,
+  "notes": ""
+ },
+ "GENERAL:801e4948": {
+  "name": "Show_Card_Error",
+  "pc": "0x449dc4",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 46.44,
+  "notes": ""
+ },
+ "GENERAL:801e4ce0": {
+  "name": "Show_Card_Please_Wait",
+  "pc": "0x449f48",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 37.3,
+  "notes": ""
+ },
+ "GENERAL:801e4fa8": {
+  "name": "Ask_Card_Yes_No",
+  "pc": "0x44a050",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 71.94,
+  "notes": ""
+ },
+ "GENERAL:801e5770": {
+  "name": "Set_LoadSave_Menu_Texts",
+  "pc": "0x44a314",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 18.35,
+  "notes": ""
+ },
+ "GENERAL:801e59b4": {
+  "name": "Set_Card_Slot_Text",
+  "pc": "0x44a420",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 12.03,
+  "notes": ""
+ },
+ "GENERAL:801e5b4c": {
+  "name": "Load_Card_Slot",
+  "pc": "0x44a49c",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 13.49,
+  "notes": ""
+ },
+ "GENERAL:801e5d58": {
+  "name": "Save_Card_Slot",
+  "pc": "0x44a510",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 16.18,
+  "notes": ""
+ },
+ "GENERAL:801e6160": {
+  "name": "Enter_Card_File_Name",
+  "pc": "0x44a654",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 67.21,
+  "notes": ""
+ },
+ "GENERAL:801e6cdc": {
+  "name": "Wait_LoadSave_Button_Release",
+  "pc": "0x44aa74",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 27.27,
+  "notes": ""
+ },
+ "GENERAL:801e7094": {
+  "name": "Memory_Card_Screen",
+  "pc": "0x44aae0",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.79,
+  "notes": ""
+ },
+ "GENERAL:801e70e0": {
+  "name": "Load_Card_File",
+  "pc": "0x44add8",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "leftover",
+  "confidence": "low",
+  "score": 17.53,
+  "notes": ""
+ },
+ "GENERAL:801e71d8": {
+  "name": "Save_Configuration",
+  "pc": "0x44ab50",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.39,
+  "notes": ""
+ },
+ "GENERAL:801e7228": {
+  "name": "Save_Game_State_To_Card",
+  "pc": "0x44ab74",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.39,
+  "notes": ""
+ },
+ "GENERAL:801e7278": {
+  "name": "Save_Race_Replay",
+  "pc": "0x44ab98",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 10.31,
+  "notes": ""
+ },
+ "GENERAL:801e7418": {
+  "name": "Play_Saved_Replay",
+  "pc": "0x44ac60",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const+sdk",
+  "confidence": "high",
+  "score": 10.3,
+  "notes": ""
+ },
+ "GENERAL:801e75e8": {
+  "name": "Keep_Season_Snapshot",
+  "pc": "0x44ad74",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 7.33,
+  "notes": ""
+ },
+ "GENERAL:801e7624": {
+  "name": "Restore_Season_Snapshot",
+  "pc": "0x44ad88",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": 0.49,
+  "notes": ""
+ },
+ "GENERAL:801e765c": {
+  "name": "Load_First_Config",
+  "pc": "0x44ad98",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 6.21,
+  "notes": ""
+ },
+ "GENERAL:801e777c": {
+  "name": "Pack_Save_Image",
+  "pc": "0x44ae0c",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "graph+sdk",
+  "confidence": "high",
+  "score": 8.8,
+  "notes": ""
+ },
+ "GENERAL:801e7cac": {
+  "name": "Unpack_Save_Image",
+  "pc": "0x44f9d4",
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "leftover",
+  "confidence": "low",
+  "score": 2.33,
+  "notes": ""
+ },
+ "GENERAL:801e8274": {
+  "name": "Champ_Stats_Screen",
+  "pc": "0x44cd30",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 46.58,
+  "notes": ""
+ },
+ "GENERAL:801e8464": {
+  "name": "Format_Champ_Stats_Rows",
+  "pc": "0x44ce78",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 20.2,
+  "notes": ""
+ },
+ "GENERAL:801e8584": {
+  "name": "Prev_Stats_Season",
+  "pc": "0x44ced8",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.96,
+  "notes": ""
+ },
+ "GENERAL:801e85e4": {
+  "name": "Next_Stats_Season",
+  "pc": "0x44cef4",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 4.15,
+  "notes": ""
+ },
+ "GENERAL:801e8658": {
+  "name": "View_Driver_Stats",
+  "pc": "0x44cf20",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 49.57,
+  "notes": ""
+ },
+ "GENERAL:801e8900": {
+  "name": "Set_Stats_Driver_Sprite",
+  "pc": "0x44d094",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 12.39,
+  "notes": ""
+ },
+ "GENERAL:801e8ae0": {
+  "name": "Format_Driver_Stats_Rows",
+  "pc": "0x44d0b0",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 20.07,
+  "notes": ""
+ },
+ "GENERAL:801e8e4c": {
+  "name": "Next_Stats_Driver",
+  "pc": "0x44d270",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 6.8,
+  "notes": ""
+ },
+ "GENERAL:801e8f6c": {
+  "name": "Format_Driver_Stats_Title",
+  "pc": "0x44d2a4",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 14.22,
+  "notes": ""
+ },
+ "GENERAL:801e9010": {
+  "name": "Run_Statistics_Menu",
+  "pc": "0x44d300",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 44.16,
+  "notes": ""
+ },
+ "GENERAL:801e9484": {
+  "name": "Show_View_Driver_Stats_Caption",
+  "pc": "0x44d4e8",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.03,
+  "notes": ""
+ },
+ "GENERAL:801e94dc": {
+  "name": "Show_View_Track_Stats_Caption",
+  "pc": "0x44d508",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.53,
+  "notes": ""
+ },
+ "GENERAL:801e9534": {
+  "name": "Show_View_Champ_Stats_Caption",
+  "pc": "0x44d528",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.53,
+  "notes": ""
+ },
+ "GENERAL:801e958c": {
+  "name": "View_Track_Stats",
+  "pc": "0x44d9d0",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 47.67,
+  "notes": ""
+ },
+ "GENERAL:801e9780": {
+  "name": "Format_Track_Stats_Rows",
+  "pc": "0x44db34",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 17.51,
+  "notes": ""
+ },
+ "GENERAL:801e9b44": {
+  "name": "Prev_Stats_Track",
+  "pc": "0x44dce0",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.88,
+  "notes": ""
+ },
+ "GENERAL:801e9bc4": {
+  "name": "Next_Stats_Track",
+  "pc": "0x44dd08",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.88,
+  "notes": ""
+ },
+ "GENERAL:801e9c44": {
+  "name": "Init_Face_Credit_Screen",
+  "pc": "0x44dd30",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 30.6,
+  "notes": ""
+ },
+ "GENERAL:801e9eec": {
+  "name": "Secret",
+  "pc": "0x44debc",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 10.28,
+  "notes": ""
+ },
+ "GENERAL:801ea9d0": {
+  "name": "Rotate_Slab_Off",
+  "pc": "0x450e3c",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 93.05,
+  "notes": ""
+ },
+ "GENERAL:801eab0c": {
+  "name": "Rotate_Slab_On",
+  "pc": "0x450ecc",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 104.77,
+  "notes": ""
+ },
+ "GENERAL:801ead60": {
+  "name": "Setup_Screen_Polys",
+  "pc": "0x450fe0",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 93.76,
+  "notes": ""
+ },
+ "GENERAL:801eaea0": {
+  "name": "Draw_Screen_Polys",
+  "pc": "0x451094",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 123.29,
+  "notes": ""
+ },
+ "GENERAL:801eb428": {
+  "name": "Setup_Screen_Text",
+  "pc": "0x451448",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 254.23,
+  "notes": ""
+ },
+ "GENERAL:801eb544": {
+  "name": "Setup_Screen_Lines",
+  "pc": "0x4514b8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 93.92,
+  "notes": ""
+ },
+ "GENERAL:801eb578": {
+  "name": "Draw_Screen_Lines",
+  "pc": "0x4514c8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 121.13,
+  "notes": ""
+ },
+ "GENERAL:801ebd4c": {
+  "name": "Button_Pressed",
+  "pc": "0x45186c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 57.28,
+  "notes": ""
+ },
+ "GENERAL:801ebe84": {
+  "name": "Glow_Selector",
+  "pc": "0x451900",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "pulses the highlight colour; called by Draw_Slab"
+ },
+ "GENERAL:801ebf8c": {
+  "name": "Draw_Slab",
+  "pc": "0x451978",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 125.58,
+  "notes": ""
+ },
+ "GENERAL:801ec04c": {
+  "name": "Null_Menu_Callback",
+  "pc": "0x451a68",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": "empty toggle of menu items 3..7"
+ },
+ "GENERAL:801ec06c": {
+  "name": "Draw_Slab_Frame",
+  "pc": "0x451a6c",
+  "file": "src/game/frontend.c",
+  "status": "verified",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 20.57,
+  "notes": ""
+ },
+ "GENERAL:801ec114": {
+  "name": "Draw_Semi_Trans_Poly",
+  "pc": "0x451ab8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 31.57,
+  "notes": ""
+ },
+ "GENERAL:801ec3fc": {
+  "name": "Set_Highlight_Grey",
+  "pc": "0x451c40",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 90.49,
+  "notes": ""
+ },
+ "GENERAL:801ec44c": {
+  "name": "Play_Click_FX",
+  "pc": "0x451c60",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 99.64,
+  "notes": ""
+ },
+ "GENERAL:801ec49c": {
+  "name": "Play_Warning_FX",
+  "pc": "0x451c80",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 24.5,
+  "notes": ""
+ },
+ "GENERAL:801ec4ec": {
+  "name": "Play_Select_FX",
+  "pc": "0x451ca0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 43.91,
+  "notes": ""
+ },
+ "RESULTS:801c4934": {
+  "name": "Save_Game",
+  "pc": "0x4538b0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 52.95,
+  "notes": ""
+ },
+ "RESULTS:801c5058": {
+  "name": "Show_File_Save_Game_Caption",
+  "pc": "0x453b90",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "RESULTS:801c50b0": {
+  "name": "Show_File_Save_Replay_Caption",
+  "pc": "0x453bb0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.43,
+  "notes": ""
+ },
+ "RESULTS:801c5108": {
+  "name": "Select_File_Save_Game",
+  "pc": "0x453bd0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.34,
+  "notes": ""
+ },
+ "RESULTS:801c5144": {
+  "name": "Select_File_Save_Replay",
+  "pc": "0x453bd8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 0.84,
+  "notes": ""
+ },
+ "RESULTS:801c5180": {
+  "name": "Select_View_Results_Replay",
+  "pc": "0x453be0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.23,
+  "notes": ""
+ },
+ "RESULTS:801c51d8": {
+  "name": "View_League",
+  "pc": "0x453c00",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 45.56,
+  "notes": ""
+ },
+ "RESULTS:801c537c": {
+  "name": "Fill_League_Table",
+  "pc": "0x453d58",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 16.93,
+  "notes": ""
+ },
+ "RESULTS:801c5604": {
+  "name": "Prev_League_Division",
+  "pc": "0x453e20",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 3.24,
+  "notes": ""
+ },
+ "RESULTS:801c56a0": {
+  "name": "Next_League_Division",
+  "pc": "0x453e54",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 3.24,
+  "notes": ""
+ },
+ "RESULTS:801c573c": {
+  "name": "End_Of_Season",
+  "pc": "0x453f08",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 65.98,
+  "notes": ""
+ },
+ "RESULTS:801c603c": {
+  "name": "Show_Season_View_Results_Caption",
+  "pc": "0x454318",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.8,
+  "notes": ""
+ },
+ "RESULTS:801c609c": {
+  "name": "Show_Season_View_League_Caption",
+  "pc": "0x4543a8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.8,
+  "notes": ""
+ },
+ "RESULTS:801c60fc": {
+  "name": "Show_Season_View_Replay_Caption",
+  "pc": "0x454438",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.8,
+  "notes": ""
+ },
+ "RESULTS:801c615c": {
+  "name": "Show_Season_File_Options_Caption",
+  "pc": "0x4544c8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.2,
+  "notes": ""
+ },
+ "RESULTS:801c61bc": {
+  "name": "Show_Season_View_Stats_Caption",
+  "pc": "0x454558",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.8,
+  "notes": ""
+ },
+ "RESULTS:801c621c": {
+  "name": "Show_Season_Go_Caption",
+  "pc": "0x4545e8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 15.51,
+  "notes": ""
+ },
+ "RESULTS:801c6340": {
+  "name": "Select_Season_Go",
+  "pc": "0x4546f0",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.73,
+  "notes": ""
+ },
+ "RESULTS:801c636c": {
+  "name": "Save_Game_At_Season_End",
+  "pc": "0x4546f8",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 7.18,
+  "notes": ""
+ },
+ "RESULTS:801c63c0": {
+  "name": "Ask_Quit_Season_End_Menu",
+  "pc": "0x454710",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph+const",
+  "confidence": "high",
+  "score": 62.14,
+  "notes": ""
+ },
+ "RESULTS:801c6b68": {
+  "name": "Set_Season_End_Title",
+  "pc": "0x4549c4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings",
+  "confidence": "high",
+  "score": 24.76,
+  "notes": ""
+ },
+ "RESULTS:801c6e64": {
+  "name": "View_MultiLeague",
+  "pc": "0x454b80",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 39.66,
+  "notes": ""
+ },
+ "RESULTS:801c6f90": {
+  "name": "Fill_MultiLeague_Table",
+  "pc": "0x454c30",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph+const",
+  "confidence": "high",
+  "score": 5.39,
+  "notes": ""
+ },
+ "RESULTS:801c7114": {
+  "name": "Race_Over",
+  "pc": "0x454d28",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 65.95,
+  "notes": ""
+ },
+ "RESULTS:801c78b4": {
+  "name": "Show_Race_Over_View_Replay_Caption",
+  "pc": "0x45505c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "RESULTS:801c790c": {
+  "name": "Show_Race_Over_Save_Replay_Caption",
+  "pc": "0x45507c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "RESULTS:801c7964": {
+  "name": "Show_Race_Over_Next_Race_Caption",
+  "pc": "0x45509c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.93,
+  "notes": ""
+ },
+ "RESULTS:801c79bc": {
+  "name": "Select_Race_Over_Save_Replay",
+  "pc": "0x4550bc",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "low",
+  "score": 1.34,
+  "notes": ""
+ },
+ "RESULTS:801c79f8": {
+  "name": "Select_Race_Over_Next_Race",
+  "pc": "0x4550c4",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.73,
+  "notes": ""
+ },
+ "RESULTS:801c7a24": {
+  "name": "Ask_Quit_Season_Race_Over",
+  "pc": "0x4550cc",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph+const",
+  "confidence": "high",
+  "score": 62.83,
+  "notes": ""
+ },
+ "RESULTS:801c81cc": {
+  "name": "View_Race_Results",
+  "pc": "0x455370",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph",
+  "confidence": "high",
+  "score": 39.6,
+  "notes": ""
+ },
+ "RESULTS:801c82f8": {
+  "name": "Fill_Race_Results_Table",
+  "pc": "0x455420",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph+const",
+  "confidence": "high",
+  "score": 5.35,
+  "notes": ""
+ },
+ "RESULTS:801c8488": {
+  "name": "Display_Season_Status",
+  "pc": "0x455518",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "graph+const",
+  "confidence": "high",
+  "score": 63.7,
+  "notes": ""
+ },
+ "RESULTS:801c8d40": {
+  "name": "Show_Status_View_Results_Caption",
+  "pc": "0x4558ec",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.98,
+  "notes": ""
+ },
+ "RESULTS:801c8da0": {
+  "name": "Show_Status_View_League_Caption",
+  "pc": "0x45595c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.98,
+  "notes": ""
+ },
+ "RESULTS:801c8e00": {
+  "name": "Show_Status_View_Replay_Caption",
+  "pc": "0x4559cc",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.98,
+  "notes": ""
+ },
+ "RESULTS:801c8e60": {
+  "name": "Show_Status_File_Options_Caption",
+  "pc": "0x455a3c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.02,
+  "notes": ""
+ },
+ "RESULTS:801c8ec0": {
+  "name": "Show_Status_View_Statistics_Caption",
+  "pc": "0x455aac",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.98,
+  "notes": ""
+ },
+ "RESULTS:801c8f20": {
+  "name": "Show_Status_Next_Race_Caption",
+  "pc": "0x455b1c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph",
+  "confidence": "high",
+  "score": 10.98,
+  "notes": ""
+ },
+ "RESULTS:801c8f80": {
+  "name": "Select_Status_Next_Race",
+  "pc": "0x455b8c",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "order",
+  "confidence": "low",
+  "score": -1.73,
+  "notes": ""
+ },
+ "RESULTS:801c8fac": {
+  "name": "Ask_Quit_Season_Status",
+  "pc": "0x455b94",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "strings+graph+const",
+  "confidence": "high",
+  "score": 62.14,
+  "notes": ""
+ },
+ "FRONTEND:801c6cd8": {
+  "name": "Init_Menu_Swatch_Cluts",
+  "pc": "0x44e860",
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801d3958": {
+  "name": "Show_Track_Picture",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c5e74": {
+  "name": "Select_Music_Volume",
+  "pc": null,
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c5ea0": {
+  "name": "Select_Sound_Effects_Volume",
+  "pc": null,
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c7a44": {
+  "name": "Show_Centre_Screen_Caption",
+  "pc": null,
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c83dc": {
+  "name": "Show_Digital_Pad_Screen",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8464": {
+  "name": "Digital_Pad_Config",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8bf0": {
+  "name": "Next_Digital_Layout",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8d54": {
+  "name": "Prev_Digital_Layout",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8eb8": {
+  "name": "Show_Digital_Layout_Name",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8f40": {
+  "name": "Show_Next_Digital_Layout_Caption",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8f90": {
+  "name": "Show_Prev_Digital_Layout_Caption",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8fe0": {
+  "name": "Digital_Button_Pressed",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c9230": {
+  "name": "Slide_Digital_Pad_Out",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c931c": {
+  "name": "Draw_Digital_Pad_Model",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801d05e8": {
+  "name": "Select_Control_Method",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801d08ac": {
+  "name": "No_Pad_Screen",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801d0a9c": {
+  "name": "Draw_Label_Lines",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801d0efc": {
+  "name": "Ask_Analog_Pad_Type",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801cc268": {
+  "name": "Analog_Pad_Config",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c98e0": {
+  "name": "Prev_Best_Laps_Track",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801c8364": {
+  "name": "Print_White_Text",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "FRONTEND:801ce7b0": {
+  "name": "Name_Cheat_Outro",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "800492a4": {
+  "name": "Play_Outro_And_Reload",
+  "pc": null,
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": null,
+  "notes": ""
+ },
+ "800377dc": {
+  "name": "Car_Corner_Impact",
+  "pc": null,
+  "file": "src/game/car_motion.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "notes": "PSX-only name: a corner hits the ground (Car_Fly_Motion_3D), velocity into it becomes a tumble"
+ },
+ "8004aec8": {
+  "name": "Sort_League",
+  "pc": null,
+  "file": "src/game/league.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX function found by its callers; name from what it does"
+ },
+ "8004a878": {
+  "name": "Championship_Won",
+  "pc": null,
+  "file": "src/game/frontend_init.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX function found by its callers; name from what it does"
+ },
+ "RESULTS:801c9754": {
+  "name": "Set_Season_Status_Mode",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX-only"
+ },
+ "RESULTS:801c6da8": {
+  "name": "Set_Season_End_Mode",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX-only"
+ },
+ "GENERAL:801e8888": {
+  "name": "Find_Driver_Picture",
+  "pc": null,
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX-only"
+ },
+ "GENERAL:801e8edc": {
+  "name": "Stats_Driver_Right",
+  "pc": null,
+  "file": "src/game/stats.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX-only"
+ },
+ "GENERAL:801e6dc8": {
+  "name": "Find_Usable_Card",
+  "pc": null,
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX-only: the card the load/save screen starts on"
+ },
+ "GENERAL:801e73a0": {
+  "name": "Unpack_Loaded_Config",
+  "pc": null,
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX-only"
+ },
+ "GENERAL:801e73d8": {
+  "name": "Unpack_Loaded_Game",
+  "pc": null,
+  "file": "src/game/loadsave.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "PSX-only"
+ },
+ "FRONTEND:801cc1e0": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_Analog_Screen",
+  "file": "src/game/frontend.c",
+  "status": "mapped",
+  "notes": "unreachable: Select_Control_Method turns a NeGcon/analog type into \"no pad\" before it would call this; not ported"
+ },
+ "FRONTEND:801ce848": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_NeGcon_Screen",
+  "file": "src/game/frontend.c",
+  "status": "mapped",
+  "notes": "unreachable: Select_Control_Method turns a NeGcon/analog type into \"no pad\" before it would call this; not ported"
+ },
+ "FRONTEND:801d09a0": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Labelled_Button_Pressed",
+  "file": "src/game/frontend.c",
+  "status": "mapped",
+  "notes": "no callers; not ported"
+ },
+ "FRONTEND:801cca0c": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Next_Analog_Layout",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801ccb60": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Prev_Analog_Layout",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cccb4": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Analog_Set_Centre",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd118": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Analog_Set_Limits",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd5ac": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_Analog_Layout_Name",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd634": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_Analog_Centre_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd684": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_Analog_Limits_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd6d4": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_Analog_Next_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd724": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_Analog_Prev_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd774": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Analog_Button_Pressed",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": "both pads share twist_* code in the port"
+ },
+ "FRONTEND:801cd898": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Slide_Analog_Pad_In",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cd9f8": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Slide_Analog_Pad_Out",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cdb18": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Draw_Analog_Pad_Model",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cf084": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Next_NeGcon_Layout",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cf1d8": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Prev_NeGcon_Layout",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cf32c": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "NeGcon_Set_Centre",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cf97c": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "NeGcon_Set_Limits",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cfee4": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_NeGcon_Layout_Name",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cff6c": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_NeGcon_Centre_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801cffbc": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_NeGcon_Limits_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801d000c": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_NeGcon_Next_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801d005c": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Show_NeGcon_Prev_Caption",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801d00ac": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "NeGcon_Button_Pressed",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": "both pads share twist_* code in the port"
+ },
+ "FRONTEND:801d01d0": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Slide_NeGcon_In",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801d0318": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Slide_NeGcon_Out",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "FRONTEND:801d0420": {
+  "pc": null,
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "name": "Draw_NeGcon_Model",
+  "file": "src/game/frontend.c",
+  "status": "written",
+  "notes": ""
+ },
+ "8001b2b4": {
+  "name": "Init_Brake_Lights",
+  "pc": null,
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": ""
+ },
+ "8001b4a8": {
+  "name": "Update_Brake_Lights",
+  "pc": null,
+  "file": "src/game/car_draw.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": ""
+ },
+ "8002d0e8": {
+  "name": "Smoke",
+  "pc": null,
+  "file": "src/game/particles.c",
+  "status": "written",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": ""
+ },
+ "FRONTEND:801c72d0": {
+  "name": "Centre_Screen_Page_part",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "mapped",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "not a function: a piece of Centre_Screen_Page that Ghidra split off; covered by it"
+ },
+ "FRONTEND:801c7304": {
+  "name": "Centre_Screen_Page_part",
+  "pc": null,
+  "file": "src/game/frontend.c",
+  "status": "mapped",
+  "evidence": "manual",
+  "confidence": "high",
+  "score": 0,
+  "notes": "not a function: a piece of Centre_Screen_Page that Ghidra split off; covered by it"
+ }
+}

@@ -1,0 +1,11 @@
+# Original game: disc image and everything extracted from it
+/game/
+/assets/
+
+# Ghidra project (holds the game's code and data; also locked while Ghidra has it open)
+/ghidra/
+
+# Build output
+build*/
+
+__pycache__/
